@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Introduction"
+date:   2020-05-11 
+permalink: "/Introduction/"
+---
+
+
 # 1 Introduction 
 
 ## 1.1 What is Microeconomics?
@@ -31,3 +39,4 @@ IMAGES OF MAP| IMAGE OF S&D MODEL
 ## 1.4 Mathematics as a Language
 
 In economics, we often use the mathematical language to express, develop and discuss our ideas. Mathematics helps us to precise our thoughts and avoid logical fallacies in our analysis. 
+
