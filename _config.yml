@@ -1,1 +1,22 @@
-theme: jekyll-theme-minimal
+# Welcome to Jekyll!
+
+
+title: Econ100A Intermediate Microeconomics
+
+
+description: >- # this means to ignore newlines until "baseurl:"
+  UCSC Economics Department 2020
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
