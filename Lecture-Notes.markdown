@@ -2,6 +2,8 @@
 layout: page
 title: Lecture Notes
 permalink: /Lecture-Notes/
+# urls to external sites: use http...
+# urls to pages in this site: use /IntermMicroecon_UCSC/mypage/
 ---
 
 ### By Natalia Lazzati and Kristian López-Vargas
