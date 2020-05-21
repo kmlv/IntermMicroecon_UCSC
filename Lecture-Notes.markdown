@@ -8,8 +8,8 @@ permalink: /Lecture-Notes/
 
 # Table of Contents
 
-1. [Introduction](/Introduction/)
-2. [Consumer Choice](/Consumer-Choice/)
+1. [Introduction](/IntermMicroecon_UCSC/Introduction/)
+2. [Consumer Choice](/IntermMicroecon_UCSC/Consumer-Choice/)
 3. Producer
 4. Markets
 5. Game Theory
