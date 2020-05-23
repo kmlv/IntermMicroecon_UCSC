@@ -32,10 +32,10 @@ Reality can be very complex. Economic models help us to simplify it, so that we 
 
 A common analogy to economic models are maps. Though the geography of the world is quite rich, to figure out the best way to go from one specific city to a different one, we can abstract from many of its features and simply focus on basic diagrams. To explain the market price of a specific good, we often behave in the same way. We focus on the key determinants of its demand and supply and assume that other markets remain unchanged.
 
-![](/assets/images/2020-05-23-Image-of-SciHill.png) | <img src={{site.baseurl}}"/assets/images/2020-05-23-Supply-and-Demand.png" alt=""> 
+![](/assets/images/2020-05-23-Image-of-SciHill.PNG) | <img src={{site.baseurl}}"/assets/images/2020-05-23-Supply-and-Demand.PNG" alt=""> 
 
 
-<img src="http://klmv.github.io/IntermMicroecon_UCSC/assets/images/2020-05-23-Image-of-SciHill.png">
+<img src="http://klmv.github.io/IntermMicroecon_UCSC/assets/images/2020-05-23-Image-of-SciHill.PNG">
 
 ## 1.4 Mathematics as a Language
 
