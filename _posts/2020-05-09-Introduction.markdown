@@ -34,6 +34,9 @@ A common analogy to economic models are maps. Though the geography of the world 
 
 ![](/assets/images/2020-05-23-Image-of-SciHill.png) | <img src={{site.baseurl}}"/assets/images/2020-05-23-Supply-and-Demand.png" alt=""> 
 
+
+<img src="http://klmv.github.io/IntermMicroecon_UCSC/assets/images/2020-05-23-Image-of-SciHill.png" >
+
 ## 1.4 Mathematics as a Language
 
 In economics, we often use the mathematical language to express, develop and discuss our ideas. Mathematics helps us to precise our thoughts and avoid logical fallacies in our analysis.
