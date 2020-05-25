@@ -259,7 +259,7 @@ $$ \frac{1/4 x_1^{-3/4} x_2^{3/4}}{2} = \frac{3/4 x_2^{-1/4} x_1^{1/4}}{2}$$
 
 This expression simplifies to:
 
-$$\frac{x_2}{3x_1} = \frac{p_1}{p_2}
+$$\frac{x_2}{3x_1} = \frac{p_1}{p_2}$$
 
 Combining the latter with FOC3, we solve for $$x_1$$ and $$x_2$$ and obtain:
 
