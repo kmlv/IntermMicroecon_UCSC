@@ -159,3 +159,286 @@ In other words, the MRS remains the same for both utilities.■
 When the utility function increases in the consumption of each good, then the MRS is negative. This means that if the consumer sacrifices a bit of one good, then he must be compensated with a bit more of the other good to be as well as before.
 
 In addition, we often assume that the MRS is decreasing (in absolute value). This captures the idea that the consumer prefers some sort of diversification across goods ---he prefers to have some of each good rather than having a lot of one good and nothing of the other. A decreasing MRS means that the more the consumer sacrifices one good, the more he needs to be compensated with the other one to be as well as before. When this happens, we say that consumer preferences are convex.
+
+## Budget Set
+
+The budget set is the set of all bundles or combinations of goods that are affordable by the consumer. That is, the set of all $$(x_1,x_2)$$ that satisfy:
+
+$$p_1x_1 + p_2x_2 \leq m$$
+
+where $$p_1$$, $$p_2$$ and m represent the price of good 1, the price of good 2, and the income level, respectively.
+
+The set of bundles that exhaust the income of the consumer is called the budget line:
+
+$$p_1x_1 + p_2x_2 = m$$
+
+In both cases, we also assume $$x_1 \geq 0$$ and $$x_2 \geq 0$$.
+
+In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ along the vertical axis, the slope of the budget line is given by $$-p_1/p_2$$. Notice that the maximum amount of good 1 that the consumer can purchase is given by the intercept of the budget line with the horizontal axis, and its magnitude is $$m/p_1$$. Similarly, for good 2, this magnitude is $$m/p_2$$.
+
+The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
+
+**BUDGETSET AND BUDGETLINE**
+
+<ins> Example </ins>: Suppose the government imposes a per unit tax of $$t$$ dollars on good 2. Then, the new budget line is
+
+$$p_1x_1 + (p_2 + t)x_2 = m$$
+
+Notice that the tax reduces the number of units the consumer can afford of *both* goods 1 and 2. This happens even while the tax only affects the price of good 2. ■
+
+## Optimal Choice
+
+We have discussed both consumer’s preferences (captured by his utility function) and consumption restrictions (captured by his budget set). To characterize consumer behavior ---that is, to explain the bundle that he will acquire in the market for each combination of prices and income level--- we assume the consumer behaves in an optimal way. In words, we postulate that the consumer selects the most desirable bundle out of the ones that he can actually afford.
+
+Mathematically, this implies that the consumer solves the following problem:
+
+$$ max_{x1,x2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
+
+We start with a graphical explanation for the solution of the consumer problem.
+
+The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x1,x2)=x_1^{3/4}x_2^{1/4}$$. The left panel of the figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$ and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer$$^2$$. Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
+
+It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
+
+**GRAPHICAL SOLUTION TO THE CONSUMER PROBLEM**
+Note: For an interactive version of this graph visit: {https://www.desmos.com/calculator/v9m2vj24vx}(https://www.desmos.com/calculator/v9m2vj24vx)
+
+We now present the mathematical solution of the consumer problem for three of the most commonly used utility functions.
+
+* **Optimal Choice With Cobb-Douglas Preferences**
+
+The consumer problem with Cobb-Douglas preferences is given by
+
+$$ max_{x1,x2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
+
+To find the optimal bundle when preferences are Cobb-Douglas (C-D), we use the Lagrangian method. The associated Lagrangian function is
+
+$$L(x_1,x_2,\lambda)=x_1^a x_2^b-\lambda(p_1x_1+p_2x_2 - m)$$
+
+Recall that we can get the solution of our initial problem by finding the maximizers of the Lagrangian function. The first order conditions of our problem (FOCs) are:
+
+$$\partial L / \partial x_1= ax_1^{a-1} x_2^b -\lambda p_1 = 0$$  (FOC1) \\
+$$\partial L / \partial x_2= bx_1^a x_2^{b-1} -\lambda p_2 = 0$$  (FOC2) \\
+$$\partial L / \partial \lambda = -p_1x_1-p_2x_2+m = 0$$ (FOC3)
+
+To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, and that solve this system of three equations and three unknowns (as a function of $$p_1$$, $$p_2$$ and $$m$$).
+
+We can solve this system of equations by first obtaining an expression for from both FOC1 and FOC2, and then make these two terms equal to each other. Doing so we get:
+
+$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \frac{bx_1^a x_2^{b-1}}{p_2}$$
+
+This expression simplifies to:
+
+$$\frac{ax_2}{bx_1} = \frac{p_1}{p_2}$$
+
+Combining this last result with FOC3, we finally get:
+
+$$x_1^* = \frac{a}{a+b}\frac{m}{p_1} \quad\quad x_2^* = \frac{b}{a+b}\frac{m}{p_2}$$
+
+To find $$\lambda^* $$, we can simply plug $$x_1^* $$ and $$ x_2^* $$ into either FOC1 or FOC2.
+
+It follows from our previous results, that the optimal solution satisfies
+
+$$MRS = \frac{p_1}{p_2} \quad and \quad m = p_1x_1 + p_2x_2.$$
+
+The first condition states that the relative value of the goods from the perspective of the consumer has to equal their relative value from the perspective of the market. The second condition simply states that the optimal bundle must be on the budget line.
+
+<ins> Example </ins>:Let us assume that $$u(x_1,x_2=x_1^a x_2^b$$ with $$a = ¼$$, $$b = ¾$$, $$m = 40$$, $$p_1 = 2$$ and $$p_2 = 2$$. Thus, the Lagrangian of the problem is:
+
+$$L(x1,x2,\lambda)=x_1^{1/4}x_2^{3/4} -\lambda(2x_1+2x_2-40)$$
+
+Taking the partial derivatives with respect to $$x_1, x_2$$ and $$\lambda$$, we get:
+
+$$\partial L / \partial x_1= (1/4)x_1^{1/4-1} x_2^{3/4} -\lambda 2 = 0$$  (FOC1) \\
+$$\partial L / \partial x_2= (3/4)x_2^{3/4} x_1^{1/4-1} -\lambda 2 = 0$$  (FOC2) \\
+$$\partial L / \partial \lambda = 40-2x_1-2x_2 = 0$$ (FOC3)
+
+To find the optimal x_1 and x_2, we first get from FOC1 and FOC2 and then make these two terms equal to each other:
+
+$$ \frac{1/4 x_1^{-3/4} x_2^{3/4}}{2} = \frac{3/4 x_2^{-1/4} x_1^{1/4}}{2}$$
+
+This expression simplifies to:
+
+$$\frac{x_2}{3x_1} = \frac{p_1}{p_2}
+
+Combining the latter with FOC3, we solve for $$x_1$$ and $$x_2$$ and obtain:
+
+$$x_1^* = \frac{1}{4} * \frac{40}{2} = 5 \quad and \quad x_2^* = \frac{3}{4} * \frac{40}{2} = 15   ■$$
+
+* **Optimal Choice With Perfect Substitutes Preferences**
+
+When the goods are perfect substitutes from the perspective of the consumer, then we cannot use the Lagrangian method to obtain the optimal bundle. The reason is that, in this case, the solution is usually non-interior. We next explain how to approach the consumer problem in this case.
+
+The consumer problem with perfect substitute preferences is given by:
+
+$$ max_{x_1,x_2} \; \{ax_1,bx_2: p_1x_1+p_2x_2=m\}$$
+
+In this case, the MRS between the goods is given by:
+
+$$MRS = \frac{\partial u /\partial x_1}{\partial u/\partial x_2}$$
+
+Recall that the MRS defines the relative value of good 1 in terms of good 2 from the perspective of the consumer. With perfect substitute preferences, the MRS is just a constant.
+
+On the other hand, the ratio $$p_1/p_2$$ describes the relative market valuation of good 1 in terms of good 2.
+
+In the case of perfect substitutes, the optimal choice relies on the comparison between the MRS and the ratio of prices.  
+
+Case 1: If $$MRS = a/b > p_1/p_2$$ then $$x_1^* = m/p_1$$ and $$x_2^* = 0$$
+
+Case 2: If $$MRS = a/b < p_1/p_2$$ then $$x_1^* = 0$$ and $$x_2^* = m/p_2$$
+
+Case 3: If $$MRS = a/b = p_1/p_2$$ then $$x_1^* \in [0,m/p_1]$$ and $$x_2^* \in [0,m/p_2]$$ such that $$x_1^* + x_2^* =m$$
+
+To understand the first case, notice that $$a/b > p_1/p_2$$ means that the extra value of the first good as compared to the second one from the perspective of the consumer is higher than the extra cost of getting the first good as compared to getting the second one. Thus, it is convenient for this person to spend all his income in the first good. Case 2 has a similar explanation. Case 3 corresponds to a situation in which the MRS equals the relative prices; in this last case, the consumer is indifferent between spending all, some, or no money in good 1 as far as he spends the rest of his income in the other good
+
+<ins> Example </ins>: Suppose $$a = 1.5$$ and $$b = 1$$. Then, $$MRS = 1.5$$. This means that this consumer is willing to give up to 1.5 units of good 2 for an additional unit of good 1. On the other hand, let us assume that $$p_1=2, p_2=2$$ and $$m=40$$. Thus, the relative market value of good 1 in terms of good 2 is just 1, i.e., $$p_1/p_2=1$$. Given that
+
+$$ MRS = 1.5 > 1 = p_1 / p_2 $$
+
+regardless of the bundle selected, we are in Case 1 above. Thus, it is optimal for the consumer to spend all his income in good 1. That is,
+
+$$x_1^* = \frac{m}{p_1} = \frac{40}{2} = 20 \quad\quad x_2^* = 0 $$
+
+The next figure illustrates this solution. ■
+
+**IMAGE Solution for the perfect substitutes **
+
+* **Optimal Choice with Perfect Complement Preferences**
+
+Remember that the utility function for perfect complement preferences is given by
+
+
+$$u(x_1,x_2) = min\{\frac{x_1}{a},\frac{x_2}{b}\}$$
+
+As with the case of perfect substitutes, when the goods are perfect complements from the perspective of the consumer, then we cannot use the Lagrangian method to obtain the optimal bundle. In this case, the reason is that the corresponding utility function is not differentiable.
+
+The consumer problem with perfect complements utility function is given by
+
+$$max_{x_1,x_2}\{min\{\frac{x_1}{a},\frac{x_2}{b}\}:\quad p_1x_1+ p_2x_2 =m \}$$
+
+Notice that, in this case, as long as p1, p2, a and b are all strictly positive, the optimal bundle will always satisfy:
+
+$$\frac{x_1}{a} = \frac{x_2}{b}$$
+
+The reason is quite simple.  Suppose that instead we have $$x_2/b > x_1/a$$ . Then,
+
+$$x_2/b>x_1/a = u(x_1,x_2)=min\{x_1/a , x_2/b\}$$
+
+It follows that this consumer could be strictly better off by spending a bit less in the second good and using that money to get a bit more of the first good! This process repeats till $$x_1/a = x_2/b$$. (A similar idea applies when $$x_1/a > x_2/b$$.)
+
+In addition, we know that the optimal bundle must satisfy the budget constraint. That is,
+
+$$p_1x_1 + p_2x_2 = m$$
+
+Combining our two observations, we get:
+
+$$p_1x_1 + p_2 \frac{bx_1}{a} = m$$
+
+so that $$x_1^* = \frac{ma}{(ap_1 + bp_2)}$$. In a similar way, we get that $$x_2^* = \frac{mb}{(ap_1 + bp_2)}$$
+
+<ins> Example </ins>: Let us assume $$u(x_1,x_2)= min\{ \frac{x_1}{a},\frac{x_2}{b}\}$$ with $$a=1$$, $$b=1$$, $$p_1=2$$, $$p_2=2$$, and $$m=40$$. In this case, we know that the optimal consumption of good 1 and 2 must satisfy:
+
+$$x_1=x_2$$
+
+We also know that:
+
+$$2x_1 + 2x_2 = 40$$
+
+Using these two equations, we get that:
+
+$$x_1^* = \frac{ma}{(ap_1 + bp_2)} = \frac{40}{2+2} = 10 \quad x_2^* = \frac{mb}{(ap_1 + bp_2)} = \frac{40}{2+2} = 10 $$
+
+The next figure illustrates this solution. ■
+
+**IMAGE Solution for the perfect complements**\\
+**Note 1: Income Tax vs. Sale Tax**. We study choices and welfare implications under two tax specifications that provide the same income level fro the government.
+
+## 2.2 Demand Function
+
+## Individual Demand Function
+
+We explained earlier that the consumer problem consists of selecting the most preferred bundle among the ones that the consumer can afford. Mathematically, the problem was described as follows:
+
+$$max_{x_1,x_2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
+
+The solution of this problem consists of a pair $$x_1^* $$ and $$x_2^* $$.  We typically write this choice as:
+
+$$x_1^* = x_1(p_1,p_2,m) \quad and \quad x_2^* = x_2(p_1,p_2,m)$$
+
+to highlight the fact that the optimal amounts of good 1 and good 2 depend on the prices of the goods and the income level of the consumer. In other words, optimal choices are function of $$p_1, p_2$$ and $$m$$ . We refer to them as the individual demand functions.
+
+The demand function of good $$i$$ (with $$i=1,2$$) receives different names according to the way in which it responds to changes in each of its arguments. (In economics, we often call this exercise comparative statics.) We next describe the main relationships.
+
+Changes with respect to income:
+
+* If $$x_i(p_1,p_2,m)$$ increases with $$m$$, we say the good is normal.
+* If $$x_i(p_1,p_2,m)$$ decreases with $$m$$, we say the good is inferior.
+
+Changes with respect to own price:
+
+* If $$x_i(p_1,p_2,m)$$ decreases with $$p_i$$, we say the good is ordinary.
+* If $$x_i(p_1,p_2,m)$$ increases with $$p_i$$, we say the good is Giffen.
+
+Changes with respect to the price of the other good:
+
+* If $$x_i(p_1,p_2,m)$$ increases with $$p_j$$, we say the good is substitutes.
+* If $$x_i(p_1,p_2,m)$$ decreases with $$p_j$$, we say the good is complements.
+
+Out of all these possibilities, Giffen goods are probably the less frequently observed. [Jensen and Miller (AER, 2008)](https://www.aeaweb.org/articles?id=10.1257/aer.98.4.1553) provided the first real-world evidence of Giffen behavior, i.e., a good with upward-sloping demand. The authors found this behavior when studying rice subsidies for poor households in Hunan and Gansu, China.
+
+<ins> Example </ins>: Let the utility be $$u(x_1,x_2) = x_1^{1/4} x_2^{3/4}$$. We showed before that, in this case,
+
+$$x_1^* = x_1 (p_1,p_2,m) = \frac{1}{4}\frac{m}{p_1} \quad and \quad x_2^* = x_2 (p_1,p_2,m) = \frac{3}{4}\frac{m}{p_2}$$
+
+Thus, according to our previous definitions, both goods are normal and ordinary. Since the quantity demanded of one of them does not depend on the price of the other one, we also say that they are independent. ■
+
+The next figures provide a graphical representation of our comparative statics results.
+
+Own price changes:
+
+[Optimal choice at different $$p_1$$ levels](https://www.desmos.com/calculator/pmsyvxyfto) and [demand curve](https://www.desmos.com/calculator/eovltdog2x)
+
+Income Changes:
+
+[Optimal choice at different income levels](https://www.desmos.com/calculator/dapbafrlqb)
+
+Our previous classifications of the goods seem to suggest that about any change in consumption is possible as prices and income levels change. Thus, one immediately wonders:
+
+$$Does \; our \; theory \; generate \; any \; testable \; implication?$$
+
+We will show that the answer is yes. This is important as, otherwise, our theory of consumer choice could never be proven false!
+
+The testable implication of our theory receives the name of **Weak Axiom of Revealed Preferences (WARP)**. This basic result is quite simple. If a bundle is acquired, then it must be the case that the consumer prefers this combination of goods to all other affordable ones. In other words, via choices, the consumer is providing us some information regarding his preferences. By testing WARP we make sure that consumer’s choices don’t provide contradicting information. The next example illustrates this possibility.
+
+<ins> Example </ins>: Imagine that we observe the next choices.
+
+Price of good 1 | Price of good 2 | Income | Choice of good 1 | Choice of good 2
+:---------------| :---------------|:-------| :----------------| :---------------
+$$p_1$$ = 2     | $$p_2 = 1$$     |$$m=10$$| $$x_1^* = 4$$    | $$x_2^* = 2$$
+$$p_1$$ = 1     | $$p_2 = 1$$     |$$m=8$$ | $$x_1^* = 1$$    | $$x_2^* = 7$$
+
+We are interested in the next question:
+
+$$Could \; these \; choices \; have \; been \; made \; by \; a \; utility \; maximizer?$$
+
+The answer is no. The reason is as follows.
+
+When the prices and income level were given by $$p_1=2, p2=1,$$ and $$m=10$$, the consumer selected 4 units of good 1 and 2 units of good 2. Notice that, since $$2*1+17<10$$, he could have selected to consume 1 unit of good 1 and 7 units of good 2. This is telling us that this consumer strictly prefers bundle (4, 2) to bundle (1, 7).
+
+Alternatively, when the prices and income level of the consumer were given by $$p_1=1, p_2=1,$$ and $$m=8$$, he selected 1 unit of good 1 and 7 units of good 2. Notice that, since $$1*4+1*2<8$$, he could have selected to consume 4 units of good 1 and 2 units of good 2. Thus, this consumer strictly prefers bundle (1, 7) to bundle (4, 2) which contradicts our previous claim. ■
+
+The WARP simply formalizes our observations in the last example.
+
+**Weak Axiom of Revealed Preference (WARP):** Suppose that $$(x_1,x_2)$$ is selected when the prices are $$(p_1,p_2)$$, and $$(x_1^{\prime}, x_2^{\prime})$$ is chosen when the prices are $$(p_1^\prime , p_2^\prime)$$.
+
+If $$p_1x_1^\prime +p_2x_2^\prime \leq p_1x_1+p_2x_2$$, then it must be that $$p_1^\prime x_1+p_2^\prime x_2 >p_1^\prime x_1^\prime +p_2^\prime x_2^\prime.$$
+
+In words, WARP is telling us that if $$(x_1,x_2)$$ was selected when $$(x_1^\prime ,x_2^\prime)$$ was affordable, then it cannot be the case that $$(x_1,x_2)$$ was affordable when the consumer selected $$(x_1^\prime , x_2^\prime)$$.
+
+The next figure displays the three key cases to check whether WARP is satisfied or not. Using our previous definition, it is easy to see that the only violation happens in panel (a).
+
+**IMAGE Three key cases to check WARP**
+
+**Redo Note 1** without assuming any particular functional form for the utility function.
+
+[Echenique et. al (2010)](http://authors.library.caltech.edu/20165/2/pump.pdf) uses US data for purchasing decisions in the supermarket to check whether people behave according to our model. While they find some violations, they prove that they are not that severe. They also relate the strength of the violations with people's characteristics. Among other results, they find that older people behave closer to the model.
