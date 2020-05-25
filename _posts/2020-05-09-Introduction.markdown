@@ -34,7 +34,7 @@ A common analogy to economic models are maps. Though the geography of the world 
 
 ![image](/assets/images/2020-05-23-Image-of-SciHill.PNG) 
 
-<img src={{site.baseurl}}"/assets/images/2020-05-23-Supply-and-Demand.PNG" alt=""> 
+<img src={{site.baseurl}}"/assets/images/2020-05-23-Supply-and-Demand.PNG" alt="test"> 
 
 <img src=/assets/images/2020-05-23-Supply-and-Demand.PNG" /> 
 
