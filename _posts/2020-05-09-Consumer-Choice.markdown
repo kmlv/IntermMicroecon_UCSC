@@ -4,6 +4,7 @@ title: "2 Consumer Choice"
 date:   2020-05-11
 permalink: "/Consumer-Choice/"
 ---
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
 
 
 This section presents some standard economic models of consumer behavior.
