@@ -201,7 +201,7 @@ The next figure shows the case of  a consumer with income level $$m=40$$, who fa
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
-<img src="{{ site.baseurl }}/img/consumerchoice/consumeproblemSOL.PNG">
+<img src="{{ site.baseurl }}/img/consumerchoice/consumerproblemSOL.PNG">
 
 Note: For an interactive version of this graph visit: {https://www.desmos.com/calculator/v9m2vj24vx}(https://www.desmos.com/calculator/v9m2vj24vx)
 
