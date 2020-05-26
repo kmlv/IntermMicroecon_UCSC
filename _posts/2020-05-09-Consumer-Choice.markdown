@@ -179,7 +179,7 @@ In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ a
 
 The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
 
-**BUDGETSET AND BUDGETLINE**
+<img src="{{ site.baseurl }}/img/consumerchoice/BSandBC.PNG">
 
 <ins> Example </ins>: Suppose the government imposes a per unit tax of $$t$$ dollars on good 2. Then, the new budget line is
 
