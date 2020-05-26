@@ -34,7 +34,7 @@ A common analogy to economic models are maps. Though the geography of the world 
 
 ![](/img/2020-05-23-map.PNG) 
 
-<img src="http://klmv.github.io/IntermMicroecon_UCSC/img/2020-05-23-supply-and-demand.PNG">
+<img src="{{ site.baseurl }}/img/2020-05-23-supply-and-demand.PNG">
 
 ## 1.4 Mathematics as a Language
 
