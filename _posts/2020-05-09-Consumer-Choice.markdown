@@ -203,7 +203,7 @@ It follows from our simple example that the best affordable combination of goods
 
 <img src="{{ site.baseurl }}/img/consumerchoice/consumerproblemSOL.PNG">
 
-Note: For an interactive version of this graph visit: {https://www.desmos.com/calculator/v9m2vj24vx}(https://www.desmos.com/calculator/v9m2vj24vx)
+Note: For an interactive version of this graph visit: [https://www.desmos.com/calculator/v9m2vj24vx](https://www.desmos.com/calculator/v9m2vj24vx)
 
 We now present the mathematical solution of the consumer problem for three of the most commonly used utility functions.
 
