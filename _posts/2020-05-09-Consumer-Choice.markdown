@@ -107,8 +107,10 @@ The next figure shows the typical shape of the indifference curves for the case 
 
 [https://www.desmos.com/calculator/sh2hmdkie9]( https://www.desmos.com/calculator/sh2hmdkie9)  
 
-(a) Perfect Substitutes | (b) Perfect Complements
-(c) Cobb-Douglas | (d) CES
+<img src="{{ site.baseurl }}/img/consumerchoice/IC-ps-pc.PNG">
+<img src="{{ site.baseurl }}/img/consumerchoice/IC-cd-ces.PNG">
+
+
 
 As we will explain, the marginal rate of substitution (MRS) is intimately related with the concept of marginal utility (MU). Thus, we start describing the latter.
 
