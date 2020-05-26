@@ -35,7 +35,7 @@ A common analogy to economic models are maps. Though the geography of the world 
 
 <img src="{{ site.baseurl }}/img/2020-05-23-map.PNG"> | <img src="{{ site.baseurl }}/img/2020-05-23-supply-and-demand.PNG">
 
-$$Economic \; models \; are \; like \; maps$$
+$$Economic \, models \, are \, like \, maps$$
 
 ## 1.4 Mathematics as a Language
 
