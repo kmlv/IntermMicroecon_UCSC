@@ -110,10 +110,7 @@ The next figure shows the typical shape of the indifference curves for the case 
 <iframe src="https://www.desmos.com/calculator/uqprbpxskm?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> 
 <iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 <iframe src="https://www.desmos.com/calculator/jxqgojdwmh?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
-<iframe src="https://www.desmos.com/calculator/1ifpmdfkzs?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>  
-
-
-
+<iframe src="https://www.desmos.com/calculator/l61fskhdck?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 
 As we will explain, the marginal rate of substitution (MRS) is intimately related with the concept of marginal utility (MU). Thus, we start describing the latter.
