@@ -405,6 +405,8 @@ Own price changes:
 
 Income Changes:
 
+<iframe src="https://www.desmos.com/calculator/v2cmacr4pg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+
 [Optimal choice at different income levels](https://www.desmos.com/calculator/dapbafrlqb)
 
 Our previous classifications of the goods seem to suggest that about any change in consumption is possible as prices and income levels change. Thus, one immediately wonders:
