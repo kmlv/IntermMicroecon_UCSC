@@ -353,7 +353,7 @@ $$x_1^* = \frac{ma}{(ap_1 + bp_2)} = \frac{40}{2+2} = 10 \quad x_2^* = \frac{mb}
 
 The next figure illustrates this solution. ■
 
-**IMAGE Solution for the perfect complements**\\
+<iframe src="https://www.desmos.com/calculator/ivfov5j8k5?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 **Note 1: Income Tax vs. Sale Tax**. We study choices and welfare implications under two tax specifications that provide the same income level fro the government.
 
 ## 2.2 Demand Function
