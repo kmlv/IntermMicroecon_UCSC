@@ -109,7 +109,7 @@ The next figure shows the typical shape of the indifference curves for the case 
 
 <iframe src="https://www.desmos.com/calculator/1ifpmdfkzs?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-<iframe src="https://www.desmos.com/calculator/1ifpmdfkzs?embed" width="500px" height="500px" style="border: 1px solid"></iframe>
+<iframe src="https://www.desmos.com/calculator/1ifpmdfkzs?embed" width="250px" height="250px" style="border: 1px solid"</iframe>
 
 
 <img src="{{ site.baseurl }}/img/consumerchoice/IC-ps-pc.PNG">
