@@ -103,9 +103,8 @@ implicitly describes the set of all combinations of goods 1 and 2 that give the 
 
 In addition, for each $$k$$, the associated weakly preferred set is $$x_2\geq \frac{k^{4/3}}{x_1^{1/3}}$$. ■
 
-The next figure shows the typical shape of the indifference curves for the case of Perfect Substitutes (top, left), Perfect Complements (top, right), Cobb-Douglas (bottom, left) and CES (bottom, right). You can find an interactive version of this figure here:
+The next figure shows the typical shape of the indifference curves for the case of Perfect Substitutes (top, left), Perfect Complements (top, right), Cobb-Douglas (bottom, left) and CES (bottom, right). You can find an interactive version of this figure [here](https://www.desmos.com/calculator/sh2hmdkie9).
 
-[https://www.desmos.com/calculator/sh2hmdkie9]( https://www.desmos.com/calculator/sh2hmdkie9)  
 
 <iframe src="https://www.desmos.com/calculator/uqprbpxskm?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> 
 <iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
@@ -202,7 +201,7 @@ The next figure shows the case of  a consumer with income level $$m=40$$, who fa
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
-<img src="{{ site.baseurl }}/img/consumerchoice/consumerproblemSOL.PNG">
+<iframe src="https://www.desmos.com/calculator/v2s2svdxdr?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Note: For an interactive version of this graph visit: [https://www.desmos.com/calculator/v9m2vj24vx](https://www.desmos.com/calculator/v9m2vj24vx)
 
