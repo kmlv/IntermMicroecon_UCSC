@@ -303,7 +303,7 @@ $$x_1^* = \frac{m}{p_1} = \frac{40}{2} = 20 \quad\quad x_2^* = 0 $$
 
 The next figure illustrates this solution. ■
 
-<iframe src="https://www.desmos.com/calculator/ijcb7pvwgi?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/qnt87dlqbo?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 
 * **Optimal Choice with Perfect Complement Preferences**
