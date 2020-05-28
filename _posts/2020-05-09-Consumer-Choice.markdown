@@ -399,7 +399,7 @@ The next figures provide a graphical representation of our comparative statics r
 
 Own price changes:
 
-<iframe src="https://www.desmos.com/calculator/jkxjekkzas?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/ohmdkaq7xl?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 <iframe src="https://www.desmos.com/calculator/khvoiu19sd?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 [Optimal choice at different $$p_1$$ levels](https://www.desmos.com/calculator/pmsyvxyfto) and [demand curve](https://www.desmos.com/calculator/eovltdog2x)
 
