@@ -49,7 +49,6 @@ $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$
 
 Suppose that a first bundle contains 16 slices of pizza and 1 burrito, so that u(16,1)=2. If a second bundle has 3 slices of pizzas and 3 burritos, then $$u(3,3)=3$$. It follows that this consumer prefers the second over the first combination of goods (i.e., he likes to have 3 slices of pizzas and 3 burritos more than having 16 slices of pizza and 1 burrito). ■
 
-[^1]:  To do so, we also require the preferences to be continuous. Roughly speaking, “preferences are continuous” if  whenever an alternative A is preferred to an alternative B, any option A’ that is sufficiently similar to option A is also preferred to option B.
 
 Though there are many types of utility functions, in this course we will mainly focus on three of them: Cobb-Douglas, Perfect Complements (i.e., Leontieff), and Perfect Substitutes (i.e., linear). We will sometimes also use the CES utility function. (CES stands for constant elasticity of substitution. We will clarify this term later.) The specific mathematical (functional) form of each of these utilities is given in the next table.
 
@@ -207,7 +206,6 @@ It follows from our simple example that the best affordable combination of goods
 
 Note: For an interactive version of this graph visit: [https://www.desmos.com/calculator/v9m2vj24vx](https://www.desmos.com/calculator/v9m2vj24vx)
 
-[^2]:  Notice that we have chosen to draw only four out of an infinite number of possible indifference curves.   
 
 
 We now present the mathematical solution of the consumer problem for three of the most commonly used utility functions.
@@ -605,7 +603,7 @@ In economics, we typically use the framework of Expected Utility (EU). In this a
 
 $$ u(late, no penalty)>p u(on time, penalty)+(1-p)u(on time, no penalty)$$
 
-Otherwise, he should choose to “break the law”, and park in front of the Econ Department$$^3$$.
+Otherwise, he should choose to “break the law”, and park in front of the Econ Department[^3].
 
 
 More generally, the expected utility model assumes that the utility a person gets from each risky choice depends on (i) the utility of the different outcomes the individual might face; and (ii) the probability of each of these possible outcomes. In particular, the valuation of a risky choice in the expected utility model is as follows:
@@ -717,3 +715,8 @@ $$\frac{1}{2} 36 + \frac{1}{2} 0 = 18$$
 
 This is the same as the money the individual makes with the safe investment. In addition, $$u(c_i)=(c_i)^{1/2}$$ is a concave function, $$u(c_i)=c_i$$ is a linear function, and $$u(c_i)=(c_i)^2$$ is a convex function. ■
 
+[^1]:  To do so, we also require the preferences to be continuous. Roughly speaking, “preferences are continuous” if  whenever an alternative A is preferred to an alternative B, any option A’ that is sufficiently similar to option A is also preferred to option B.
+
+[^2]:  Notice that we have chosen to draw only four out of an infinite number of possible indifference curves.   
+
+[^3]: This example is given by Gary Becker as the starting point of his economic analysis of criminal decisions.
