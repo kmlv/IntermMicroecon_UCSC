@@ -39,7 +39,7 @@ Consumer preferences represent a ranking over consumption bundles or combination
 
 We will always assume consumer preferences are transitive. Transitivity means that if a consumer prefers bundle $$a$$ over bundle $$b$$, and he also prefers bundle $$b$$ over bundle $$c$$, then it must be the case that the consumer prefers bundle $$a$$ over bundle $$c$$.
 
-Transitivity is a very important property as it allows us to talk of the most preferred bundle! When it holds, we can often conveniently represent the preferences of a given consumer by what we call a utility function.$$^1$$
+Transitivity is a very important property as it allows us to talk of the most preferred bundle! When it holds, we can often conveniently represent the preferences of a given consumer by what we call a utility function[^1].
 
 Formally, a utility function is a function that assigns a number to each bundle in such a way that these numbers respect the underlying preference ranking of the consumer (i.e., the utility function assigns higher numbers to more preferred combinations of goods).
 
@@ -711,3 +711,6 @@ The reason is that the expected value of the risky project was given by
 $$\frac{1}{2} 36 + \frac{1}{2} 0 = 18$$
 
 This is the same as the money the individual makes with the safe investment. In addition, $$u(c_i)=(c_i)^{1/2}$$ is a concave function, $$u(c_i)=c_i$$ is a linear function, and $$u(c_i)=(c_i)^2$$ is a convex function. ■
+
+
+[^1]:  To do so, we also require the preferences to be continuous. Roughly speaking, “preferences are continuous” if  whenever an alternative A is preferred to an alternative B, any option A’ that is sufficiently similar to option A is also preferred to option B.
