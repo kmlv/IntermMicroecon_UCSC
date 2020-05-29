@@ -449,3 +449,265 @@ The next figure displays the three key cases to check whether WARP is satisfied 
 **Redo Note 1** without assuming any particular functional form for the utility function.
 
 [Echenique et. al (2010)](http://authors.library.caltech.edu/20165/2/pump.pdf) uses US data for purchasing decisions in the supermarket to check whether people behave according to our model. While they find some violations, they prove that they are not that severe. They also relate the strength of the violations with people's characteristics. Among other results, they find that older people behave closer to the model.
+
+## Market Demand Function
+
+We just learned that the individual demand function of good $$i$$, with $$i=1,2,$$ represents the choice of good $$i$$ in the bundle that maximizes the utility of the consumer for each pair of prices and income level. If we refer to an arbitrary consumer as consumer $$j$$, then
+
+$$x_1^j (p_1 \cdot p_2,m^j) \quad and \quad x_2^j=x_2(p_1 \cdot p_2,m^j)$$
+
+indicate consumer $$j's$$ demands for goods 1 and 2, respectively.
+
+The market demands for these goods are given by
+
+$$Q_1^d (p_1,p_2,m^1,m^2,...,m^J)= \sum_{j=1}^{J} x_1^j (p_1 \cdot p_2,m^j)$$ \\
+$$Q_2^d (p_1,p_2,m^1,m^2,...,m^J)= \sum_{j=1}^{J} x_2^j (p_1 \cdot p_2,m^j)$$
+
+where $$J$$ indicates the number of consumers in the economy. That is, for each fixed vector of prices and income levels, the market demand of each good is simply the sum of the individual market demands of all consumers in the economy for that specific good.
+
+Notice that the market demand of each good depends on the prices of the two goods as well as the income distribution.
+
+We just derived the quantity demanded for each good as a function of the market prices. It is sometimes convenient to express market prices as functions of quantities. We refer to $$P(x)$$ as the inverse demand function of a certain good.
+
+<ins> Example </ins>: Suppose that the economy consists of two individuals with demand functions given by
+
+$$x^1(p,m^1)= 20-p \quad and \quad x^2(p,m^2)= 30-3p$$
+
+The aggregate demand function is thereby given by
+
+$$Q^d(p,m^1,m^2) = x^1(p,m^1)+x^2(p,m^1)=50-4p \quad if \quad p \leq 10$$ \\
+$$Q^d(p,m^1,m^2) = x^1(p,m^1)+x^2(p,m^1)=20-p \quad if  \quad p > 10$$
+
+Note that we add quantities for the same price! The next picture illustrates this result.
+
+**Linear Demand Desmos**
+
+When demands are linear, then there is usually a kink in the market demand.
+
+In this example, the inverse demand function is given by
+
+$$p(Q,m^1,m^2)=12.5-¼Q \quad if \quad Q \geq 10$$ \\
+$$p(Q,m^1,m^2)=20-Q \quad if \quad  Q<10 $$            ■
+
+Let $$Q^d (p)$$ be the demand function. The elasticity of demand is given by
+
+$$\epsilon =(\partial Q^d (p)/\partial p )(p/Q^d (p)$$
+
+Since, generally, $$\partial Q^d (p)/\partial p \leq 0$$ , we often express $$\epsilon$$ in absolute values. The elasticity of demand measures how sensitive is the demand function to price changes.
+
+When $$ \lvert \epsilon \rvert >1$$, we say the demand is elastic. This means that the quantity demanded is very responsive to price changes. It usually happens when the good we are considering has close substitutes. For example, A4 paper from Office World and A4 paper from Boise.
+
+When $$\lvert \epsilon \rvert <1$$, we say the demand is inelastic. This means that the quantity demanded does not respond very much to changes in prices. It usually happens when the good does not have close substitutes. For example, some medications, like Triluma.
+
+<ins> Example </ins>:  Let $$Q^d(p)=a-bp. The elasticity of demand is
+
+$$\lvert \epsilon \rvert=bp/(a-bp)$$
+
+The next picture shows the way in which \lvert \epsilon \rvert varies with $$x$$.
+
+**Price Elasticity**
+
+Notice that the good is elastic or inelastic according to the amount that the consumer gets. ■
+
+## 2.3 Intertemporal Choice
+
+The model we studied in the last section assumes that either there is a single period of time or that the consumer spends all his income every period, without saving or borrowing. This section shows that a similar approach can be used to model consumer behavior across different periods of time.
+
+This extension will allow us to understand the relationship between saving (or borrowing) and the interest rate. It is also important as it shows that, with small modifications, our initial model can accommodate many situations of interest.
+
+In our simple intertemporal choice model, consumers decide how to allocate their income between consumption today and tomorrow. The main components of the model are as follows.
+
+1. Two goods: current consumption $$(c_1)$$ and future consumption $$(c_2)$$
+2.  Prices of current and future consumption is 1 (i.e., we assume no inflation)
+3. Income levels: current income $$(m_1)$$ and future income $$(m_2)$$
+4. Interest rate: $$r$$
+
+As you can see, we make a few simplifying assumptions. First, we assume that there is no inflation. Second, we assume there is a  bank that allows the consumer to either save his current income $$(m_1)$$ or to borrow up from his future income $$(m_2)$$. Moreover, we suppose that the interest rate $$r$$ is the same for saving and borrowing money. (These restrictions can be easily relaxed with small, though probably tedious, modifications of our main results.)
+
+In the intertemporal model, consumers’ preferences are captured by a utility function over current and future consumption
+
+$$u(c_1,c_2)$$
+
+Because we are allowing the consumer to either save or borrow money, the consumer faces a single budget constraint for the “whole life” ---or two periods. Expressed in future value, the lifetime income of this person is $$(1+r)m_1+m_2$$. To understand better this equation, notice that (1+r) represents the extra income the consumer can experience in the second period per dollar that he saves in the first period of time. If in period of time 1 the consumer puts 1 dollar of his income in the bank, then in the second period the bank gives the consumer the dollar he invested plus the interest rate r. Similarly, her lifetime consumption is $$(1+r)c_1+c_2$$. His budget constraint simply reflects that these two amounts must be the same. That is,
+
+$$(1+r)c_1+c_2=(1+r)m_1+m_2$$
+
+Notice that, in a graph where c1 is in the horizontal axis and c2 is in the vertical axis, the slope of the budget line is $$-(1+r)$$.
+
+We can also write the budget line in present value terms
+
+$$c_1+c_2/(1+r)=m_1+m_2/(1+r)$$
+
+In this representation, $$1/(1+r)$$ indicates how much more the consumer can buy in period of time 1 if he sacrifices 1 unit of consumption in period 2. To achieve this goal, the consumer borrows $$1/(1+r)$$ dollars from the bank in the first period of time with the promise of paying $$[1/(1+r)]* (1+r)=1$$ to the bank in period of time 2.
+
+The (intertemporal) problem of the consumer is as follows:
+
+$$max_{c_1,c_2} \{u(c_1,c_2): (1+r)c_1+c_2=(1+r)m_1+m_2\}$$
+
+Notice that, from a mathematical perspective, this problem is very similar to our initial consumer choice model! Moreover, it is indeed identical if we let
+
+* $$x_1=c_1$$ and  $$x_2=c_2$$
+* $$p_1=1+r$$ and $$p_2=1$$
+* ($$1+r)m_1+m_2=1$$
+
+<ins> Example </ins>: As we just described, we assume no inflation and indicate by $$m_1$$, $$m_2$$, and $$r$$ the corresponding income levels and interest rate. In this example, we will also suppose the consumer has the following utility specification for consumption in periods 1 and 2
+
+$$u(c_1,c_2)=(c_1)^{1/4} (c_2)^{3/4}$$
+
+The problem of the consumer is
+
+$$max_{c_1,c_2} \{(c_1)^{1/4} (c_2)^{3/4}: (1+r)c_1+c_2=(1+r)m_1+m_2\}$$
+
+Given the connection we just established between this model and the initial consumer problem, we can use our previous results to state that
+
+$$c_1^* =(1/4)[(1+r)m_1+m_2][1/(1+r)] \quad and \quad c_2^* =(3/4)[(1+r)m_1+m_2] \quad$$ ■
+
+**Note 2: Revealed Preferences and the Interest Rate.**  In this note we study the effect of increasing the interest rate for a "saver" and a "borrower" consumer.
+
+We just studied the optimal allocation of consumption levels between today and tomorrow. Let us next assume that our intertemporal consumer faces the possibility of investing some amount of money today with the promise of receiving some specific return tomorrow. Should the consumer make such an investment? We now develop a criterion which the consumer should use in deciding whether or not to do so.
+
+To be more clear, let us consider an investment which has a negative cash flow of -$A today ---the investment--- and a positive cash flow of $B in 1 year ---the return. The question we want to address is
+
+$$Should \;the\; person\; invest\; in\; this\; project?$$
+
+The answer to this question is indeed very simple.
+
+The person should invest if (and only if)
+
+$$-A + B/(1+r) \geq  0$$
+
+(Positive Net Present Value in Finance.) The reason is that if $$-A + B/(1+r) \geq  0$$,  then the budget line of the consumer shifts up.
+
+Notice that the previous rule does not depend on the preferences of the consumer!
+
+**Note 3: Investment on Schooling**. We study investment on schooling with and without borrowing constraints
+
+**Note 4: Choosing a Retirement Plan**. We study the selection of two different retirement plans.
+
+## 2.4 Choice Under Risk
+
+In this section, we study individual behavior with respect to choices involving risk. We face risks in almost every single decision we make since, in most cases, it is hard to anticipate the exact consequences of each alternative.
+
+Let’s start with an example. As an economics professor at UC Berkeley, Gary Becker had to give an exam at 8:00 AM. He arrived at the university at 7:55 AM, so he did not have enough time to go to the parking lot and be on time for the test. He faced two options:
+
+1. go to the parking lot, so to avoid the parking ticket, but be late for the exam with certainty; or
+
+2. park in front of the Economics Department, so to be on time for the exam, but face the risk of getting a parking ticket.
+
+As you can see, each option has pros and cons. The question is how to compare them! To do so we need a model that would allow us to compare options in which we are not sure about the final outcomes. We next present the most commonly used method.
+
+In economics, we typically use the framework of Expected Utility (EU). In this approach, every possible outcome has a utility level associated with it. In this example, $$u(late, no penalty)$$ would denote the utility that Gary Becker gets from option (1). Under option (2), there are two possibilities, he either gets caught or he doesn't. Let $$u(on time, penalty)$$  and $$u(on time, no penalty)$$ indicate the utility levels under these two possible outcomes of option (2). Also, suppose that he estimates that if he parks in front of the Economics Department, then the probability of getting caught is $$p$$. According to the expected utility approach, Gary Becker values the risky alternative as a weighted combination of the utilities he could experience in that course of action. Following that logic he should decide to be late if and only if:
+
+$$ u(late, no penalty)>p u(on time, penalty)+(1-p)u(on time, no penalty)$$
+
+Otherwise, he should choose to “break the law”, and park in front of the Econ Department$$^3$$.
+
+
+More generally, the expected utility model assumes that the utility a person gets from each risky choice depends on (i) the utility of the different outcomes the individual might face; and (ii) the probability of each of these possible outcomes. In particular, the valuation of a risky choice in the expected utility model is as follows:
+
+$$EU = p_1 u(c_1) + p_2 u(c_2)$$
+
+where $$c_1$$ and $$c_2$$ are two possible outcomes usually measured in monetary terms (for example $1 and $10), and $$p-1$$ and $$p-2$$ are their corresponding probabilities (for example $$⅓$$ and $$⅔$$, respectively). Under this specification, the overall utility is just the weighted average of the utility that the person gets under each possible circumstance, where the weights are the probabilities that the person assigns to the different events.
+
+As we mentioned earlier, though the expected utility approach is probably the most widely utilized method, it is not the only model that has been used to study choice under risk. The field of behavioral economics studies other conceptual approaches, among which the [prospect theory](http://www.jstor.org/stable/1914185) by Tversky and Kahneman (1979) is probably the most prominent one.  
+
+In what follows, we will only consider situations where the different outcomes of the risky choice are simply different amounts of money. In that sense, we will restrict attention to situations that are similar to the ones that consumers face when they buy lottery tickets or go to the casino.
+
+<ins> Example </ins>: (Lottery) An individual has $100 in his wallet and is evaluating whether to buy a lottery ticket. The ticket costs $20 and he knows that with 50% chance he can get $40, and with 50% chance he gets $0. In our notation, $$c_1=100-20+40=120, c_2=100-20=80,  p_1=0.5$$ and $$p_2=0.5$$. Let us also  assume, the utility function of this person is given by:
+
+$$u(c_i)=c_i^{1/2}$$
+
+where $$c_i$$ is the money that the consumer gets in each outcome $$i$$. Under this specification, if the person buys the ticket, his expected utility (denoted by EU) is given by:
+
+
+$$Expected \; Utility \; of \; the \; Lottery \;Ticket \;(EU) = \frac{1}{2} u(100-20-40) + \frac{1}{2} u(100-20)$$ \\
+
+$$\qquad \qquad \qquad \quad = \frac{1}{2} (120)^{1/2}+ \frac{1}{2}(80)^{1/2}$$
+
+$$\qquad \qquad \qquad \qquad = 9.95 \qquad \qquad \qquad \quad $$
+
+On the other hand, if the individual does not get the ticket, his utility is $$u(100)=(100)^{1/2}=10$$, with certainty. Since $$10 > 9.95$$, this consumer will rather prefer not to buy the ticket for the lottery. ■
+
+It is important to notice that the expected value of buying the ticket in the previous example is
+
+$$\frac{1}{2}(100-20+40) + \frac{1}{2}(100-20) = 100$$
+
+That is, it is the same as not buying the ticket. Yet, this consumer preferred to avoid taking the risk involved in the lottery. The next example shows the key role that the shape of the utility function has in determining whether a person takes or not a specific risk.
+
+<ins> Example </ins>: (Investment) An individual is contemplating the possibility of either investing his money in a risky project that pays $36 if he wins and $0 otherwise or in a safe project that always pays $18. He estimates that the probability of winning in the risky project is ½. That is,
+
+$$c_1=36, c_2=0, p_1=0.5 \quad and \quad p_2=0.5$$
+
+We are interested in a simple question: Should a rational person invest in the risky project?
+
+We next show that the answer of this question depends on the preferences of the individual, which are captured by the shape of the utility function u.
+
+If the person gets involved in the risky project, then his expected utility is
+
+$$EU[risky \; project]=\frac{1}{2}u(36)+\frac{1}{2}u(0)$$
+
+Since the safe option always pays $18, he should invest in the risky project whenever
+
+$$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) \geq u(18)$$
+
+Otherwise, this person would be better off putting his money in the safe option.
+
+Without any other information regarding the shape of u, we cannot answer our initial question. We next contemplate three different possibilities.
+
+Let us assume first that $$u(c_i)=(c_i)^{1/2}$$. In this case, the expected utility of the risky project is
+
+$$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0)=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3$$
+
+
+In addition, the utility he gets from the safe project is $$(18)^{1/2} \approx 4.24$$. Since
+
+$$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
+
+we conclude that this person should select the safe option. The following picture illustrates this first situation.
+
+**RISK AVERSE CHOICE** \\
+Note: You can access an interactive version of this graph [here](https://www.desmos.com/calculator/zhqanv1cib).
+
+Let us now suppose that $$u(c_i)=c_i$$. In this case, we have that
+
+$$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)+\frac{1}{2}(0)=18$$
+
+In addition, the utility from the safe project is $$u(18)=18$$. Thus, this person is just indifferent between the safe and the risky option.
+
+**RISK NEUTRAL CHOICE**
+
+Finally, let us set $$u(c_i)=(c_i)^2$$. In this case, we have that
+
+$$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{1}{2}(0)^2=648$$
+
+In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, this person clearly prefers the risky investment. ■
+
+**RISK LOVING CHOICE**
+
+We often classify individuals according to their attitudes toward risk. As we shall see, the standard classification is intimately related to our last example. It involves the comparison between the expected utility of the risky project
+
+$$p_1 u(c_1)+ p_2 u(c_2)$$
+
+and the utility of the person evaluated at the expected value of the risky project
+
+$$u(p_1c_1+p_2c_2)$$
+
+The expected value of the risky project ---$$p_1c_1+p_2c_2$$---- can be thought of as the amount of money that a person who invests in the risky project many times would get on average.
+
+The next table classifies people according to attitudes toward risk and establishes a connection between these attitudes and the curvature of the utility function.
+
+Attitude/Behavior| Shape of utility function | Property of utility function
+:---------------:|:-------------------------:|:----------------------------:
+Risk Averse      | Concave Utility           | $$p_1 u(c_1)+p_2 u(c_2)<u(p_1c_1+p_2c_2)$$
+Risk Neutral     | Linear Utility            | $$p_1 u(c_1)+p_2 u(c_2)=u(p_1c_1+p_2c_2)$$
+Risk Loving      | Convex Utility            | $$p_1 u(c_1)+p_2 u(c_2)>u(p_1c_1+p_2c_2)$$
+
+<ins> Example </ins>:  Suppose that, as in the last example, an individual is contemplating the possibility of either investing his money in a risky project that pays $36 if he wins and $0 otherwise or in a safe project that always pays $18. The probability of winning in the risky project is again 1/2.
+
+In the previous example we studied the investment decision of three individuals that differed regarding the shape of the utility function: (i) $$u(c_i)=(c_i)^{1/2}$$; (ii) $$u(c_i)=c_i$$; and (iii) $$u(c_i)=(c_i)^2$$. We found that the first individual would not invest, the second one was indifferent, and the third one would always invest in the risky project. Given our last table, we could have made the prediction without any calculation!
+
+The reason is that the expected value of the risky project was given by
+
+$$\frac{1}{2} 36 + \frac{1}{2} 0 = 18$$
+
+This is the same as the money the individual makes with the safe investment. In addition, $$u(c_i)=(c_i)^{1/2}$$ is a concave function, $$u(c_i)=c_i$$ is a linear function, and $$u(c_i)=(c_i)^2$$ is a convex function. ■
