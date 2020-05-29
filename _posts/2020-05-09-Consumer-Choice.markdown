@@ -49,6 +49,8 @@ $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$
 
 Suppose that a first bundle contains 16 slices of pizza and 1 burrito, so that u(16,1)=2. If a second bundle has 3 slices of pizzas and 3 burritos, then $$u(3,3)=3$$. It follows that this consumer prefers the second over the first combination of goods (i.e., he likes to have 3 slices of pizzas and 3 burritos more than having 16 slices of pizza and 1 burrito). ■
 
+[^1]:  To do so, we also require the preferences to be continuous. Roughly speaking, “preferences are continuous” if  whenever an alternative A is preferred to an alternative B, any option A’ that is sufficiently similar to option A is also preferred to option B.
+
 Though there are many types of utility functions, in this course we will mainly focus on three of them: Cobb-Douglas, Perfect Complements (i.e., Leontieff), and Perfect Substitutes (i.e., linear). We will sometimes also use the CES utility function. (CES stands for constant elasticity of substitution. We will clarify this term later.) The specific mathematical (functional) form of each of these utilities is given in the next table.
 
 Utility Function | Mathematical Form
@@ -197,13 +199,16 @@ $$ max_{x1,x2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
 
 We start with a graphical explanation for the solution of the consumer problem.
 
-The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x1,x2)=x_1^{3/4}x_2^{1/4}$$. The left panel of the figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$ and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer$$^2$$. Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
+The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x1,x2)=x_1^{3/4}x_2^{1/4}$$. The left panel of the figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$ and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer[^2]. Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
 <iframe src="https://www.desmos.com/calculator/framm2vb0u?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 Note: For an interactive version of this graph visit: [https://www.desmos.com/calculator/v9m2vj24vx](https://www.desmos.com/calculator/v9m2vj24vx)
+
+[^2]:  Notice that we have chosen to draw only four out of an infinite number of possible indifference curves.   
+
 
 We now present the mathematical solution of the consumer problem for three of the most commonly used utility functions.
 
@@ -712,5 +717,3 @@ $$\frac{1}{2} 36 + \frac{1}{2} 0 = 18$$
 
 This is the same as the money the individual makes with the safe investment. In addition, $$u(c_i)=(c_i)^{1/2}$$ is a concave function, $$u(c_i)=c_i$$ is a linear function, and $$u(c_i)=(c_i)^2$$ is a convex function. ■
 
-
-[^1]:  To do so, we also require the preferences to be continuous. Roughly speaking, “preferences are continuous” if  whenever an alternative A is preferred to an alternative B, any option A’ that is sufficiently similar to option A is also preferred to option B.
