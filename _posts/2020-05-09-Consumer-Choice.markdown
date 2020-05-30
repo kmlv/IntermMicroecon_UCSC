@@ -253,7 +253,7 @@ The first condition states that the relative value of the goods from the perspec
 
 <ins> Example </ins>:Let us assume that $$u(x_1,x_2=x_1^a x_2^b$$ with $$a = ¼$$, $$b = ¾$$, $$m = 40$$, $$p_1 = 2$$ and $$p_2 = 2$$. Thus, the Lagrangian of the problem is:
 
-$$L(x1,x2,\lambda)=x_1^{1/4}x_2^{3/4} -\lambda(2x_1+2x_2-40)$$
+$$L(x_1,x_2,\lambda)=x_1^{1/4}x_2^{3/4} -\lambda(2x_1+2x_2-40)$$
 
 Taking the partial derivatives with respect to $$x_1, x_2$$ and $$\lambda$$, we get:
 
