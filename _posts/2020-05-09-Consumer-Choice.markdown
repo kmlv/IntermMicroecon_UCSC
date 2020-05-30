@@ -483,7 +483,7 @@ $$Q^d(p,m^1,m^2) = x^1(p,m^1)+x^2(p,m^1)=20-p \quad if  \quad p > 10$$
 
 Note that we add quantities for the same price! The next picture illustrates this result.
 
-**Linear Demand Desmos**
+<img src="{{ site.baseurl }}/img/consumerchoice/lineardemand.PNG">
 
 When demands are linear, then there is usually a kink in the market demand.
 
@@ -502,13 +502,13 @@ When $$ \lvert \epsilon \rvert >1$$, we say the demand is elastic. This means th
 
 When $$\lvert \epsilon \rvert <1$$, we say the demand is inelastic. This means that the quantity demanded does not respond very much to changes in prices. It usually happens when the good does not have close substitutes. For example, some medications, like Triluma.
 
-<ins> Example </ins>:  Let $$Q^d(p)=a-bp. The elasticity of demand is
+<ins> Example </ins>:  Let $$Q^d(p)=a-bp$$. The elasticity of demand is
 
 $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
-The next picture shows the way in which \lvert \epsilon \rvert varies with $$x$$.
+The next picture shows the way in which \lvert \epsilon \rvert$$ varies with $$x$$.
 
-**Price Elasticity**
+<img src="{{ site.baseurl }}/img/consumerchoice/priceelasticitylineardemand.PNG">
 
 Notice that the good is elastic or inelastic according to the amount that the consumer gets. ■
 
