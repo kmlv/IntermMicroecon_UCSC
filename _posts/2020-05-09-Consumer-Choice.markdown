@@ -447,7 +447,7 @@ In words, WARP is telling us that if $$(x_1,x_2)$$ was selected when $$(x_1^\pri
 
 The next figure displays the three key cases to check whether WARP is satisfied or not. Using our previous definition, it is easy to see that the only violation happens in panel (a).
 
-**IMAGE Three key cases to check WARP**
+<img src="{{ site.baseurl }}/img/consumerchoice/3KeyCasesWARP.PNG">
 
 **Redo Note 1** without assuming any particular functional form for the utility function.
 
