@@ -506,7 +506,7 @@ When $$\lvert \epsilon \rvert <1$$, we say the demand is inelastic. This means t
 
 $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
-The next picture shows the way in which $$\lvert \epsilon \rvert$$ varies with $$x$$.
+The next picture shows the way in which $$ \lvert \epsilon \rvert$$ varies with $$x$$.
 
 <img src="{{ site.baseurl }}/img/consumerchoice/priceelasticitylineardemand.PNG">
 
@@ -601,7 +601,7 @@ As you can see, each option has pros and cons. The question is how to compare th
 
 In economics, we typically use the framework of Expected Utility (EU). In this approach, every possible outcome has a utility level associated with it. In this example, $$u(late, no penalty)$$ would denote the utility that Gary Becker gets from option (1). Under option (2), there are two possibilities, he either gets caught or he doesn't. Let $$u(on time, penalty)$$  and $$u(on time, no penalty)$$ indicate the utility levels under these two possible outcomes of option (2). Also, suppose that he estimates that if he parks in front of the Economics Department, then the probability of getting caught is $$p$$. According to the expected utility approach, Gary Becker values the risky alternative as a weighted combination of the utilities he could experience in that course of action. Following that logic he should decide to be late if and only if:
 
-$$ u(late, no penalty)>p u(on time, penalty)+(1-p)u(on time, no penalty)$$
+$$ u(late, no penalty)>(p)u(on time, penalty)+(1-p)u(on time, no penalty)$$
 
 Otherwise, he should choose to “break the law”, and park in front of the Econ Department[^3].
 
@@ -623,7 +623,7 @@ $$u(c_i)=c_i^{1/2}$$
 where $$c_i$$ is the money that the consumer gets in each outcome $$i$$. Under this specification, if the person buys the ticket, his expected utility (denoted by EU) is given by:
 
 
-$$Expected \; Utility \; of \; the \; Lottery \;Ticket \;(EU) = \frac{1}{2} u(100-20-40) + \frac{1}{2} u(100-20)$$ \\
+$$Expected \; Utility \; of \; the \; Lottery \;Ticket \;(EU) = \frac{1}{2} u(100-20-40) + \frac{1}{2} u(100-20)$$ 
 
 $$\qquad \qquad \qquad \quad = \frac{1}{2} (120)^{1/2}+ \frac{1}{2}(80)^{1/2}$$
 
@@ -639,7 +639,7 @@ That is, it is the same as not buying the ticket. Yet, this consumer preferred t
 
 <ins> Example </ins>: (Investment) An individual is contemplating the possibility of either investing his money in a risky project that pays $36 if he wins and $0 otherwise or in a safe project that always pays $18. He estimates that the probability of winning in the risky project is ½. That is,
 
-$$c_1=36, c_2=0, p_1=0.5 \quad and \quad p_2=0.5$$
+$$c_1=36, \, c_2=0, \, p_1=0.5 \quad and \quad p_2=0.5$$
 
 We are interested in a simple question: Should a rational person invest in the risky project?
 
@@ -668,7 +668,9 @@ $$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
 
 we conclude that this person should select the safe option. The following picture illustrates this first situation.
 
-<iframe src="https://www.desmos.com/calculator/he5z3o0d2s?embed" width="250px" height="250px" style="border: 1px solid #ccc" fra></iframe> \\
+<iframe src="https://www.desmos.com/calculator/he5z3o0d2s?embed" width="250px" height="250px" style="border: 1px solid #ccc" fra></iframe> 
+
+$$Risk \; averse\; choice$$
 
 Note: You can access an interactive version of this graph [here](https://www.desmos.com/calculator/zhqanv1cib).
 
@@ -680,6 +682,9 @@ In addition, the utility from the safe project is $$u(18)=18$$. Thus, this perso
 
 <iframe src="https://www.desmos.com/calculator/doptgkp13w?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
+$$Risk \; neutral\; choice$$
+
+
 Finally, let us set $$u(c_i)=(c_i)^2$$. In this case, we have that
 
 $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{1}{2}(0)^2=648$$
@@ -687,6 +692,9 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{
 In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, this person clearly prefers the risky investment. ■
 
 <iframe src="https://www.desmos.com/calculator/gkhimxfprg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+
+$$Risk \; loving \; choice$$
+
 
 We often classify individuals according to their attitudes toward risk. As we shall see, the standard classification is intimately related to our last example. It involves the comparison between the expected utility of the risky project
 
