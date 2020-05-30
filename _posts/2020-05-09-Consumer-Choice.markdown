@@ -506,7 +506,7 @@ When $$\lvert \epsilon \rvert <1$$, we say the demand is inelastic. This means t
 
 $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
-The next picture shows the way in which \lvert \epsilon \rvert$$ varies with $$x$$.
+The next picture shows the way in which $$\lvert \epsilon \rvert$$ varies with $$x$$.
 
 <img src="{{ site.baseurl }}/img/consumerchoice/priceelasticitylineardemand.PNG">
 
