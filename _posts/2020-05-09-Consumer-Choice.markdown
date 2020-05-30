@@ -107,10 +107,10 @@ In addition, for each $$k$$, the associated weakly preferred set is $$x_2\geq \f
 The next figure shows the typical shape of the indifference curves for the case of Perfect Substitutes (top, left), Perfect Complements (top, right), Cobb-Douglas (bottom, left) and CES (bottom, right). You can find an interactive version of this figure [here](https://www.desmos.com/calculator/sh2hmdkie9).
 
 
-<iframe src="https://www.desmos.com/calculator/uqprbpxskm?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> 
-<iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
-<iframe src="https://www.desmos.com/calculator/jxqgojdwmh?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
-<iframe src="https://www.desmos.com/calculator/l61fskhdck?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/uqprbpxskm?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> (a) Perfect Substitutes
+<iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> (b) Perfect Complements 
+<iframe src="https://www.desmos.com/calculator/jxqgojdwmh?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> (c) Cobb-Douglas
+<iframe src="https://www.desmos.com/calculator/l61fskhdck?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe> (d) CES
 
 
 As we will explain, the marginal rate of substitution (MRS) is intimately related with the concept of marginal utility (MU). Thus, we start describing the latter.
@@ -203,6 +203,9 @@ The next figure shows the case of  a consumer with income level $$m=40$$, who fa
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
 <iframe src="https://www.desmos.com/calculator/framm2vb0u?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+
+$$Graphical \; solution \; to \;the \;consumer \;problem$$
+
 
 Note: For an interactive version of this graph visit: [https://www.desmos.com/calculator/v9m2vj24vx](https://www.desmos.com/calculator/v9m2vj24vx)
 
@@ -308,6 +311,8 @@ The next figure illustrates this solution. ■
 
 <iframe src="https://www.desmos.com/calculator/mp4hjlmp7o?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
+$$Solution \; for \;the \;perfect \;substitutes$$
+
 
 * **Optimal Choice with Perfect Complement Preferences**
 
@@ -357,6 +362,9 @@ $$x_1^* = \frac{ma}{(ap_1 + bp_2)} = \frac{40}{2+2} = 10 \quad x_2^* = \frac{mb}
 The next figure illustrates this solution. ■
 
 <iframe src="https://www.desmos.com/calculator/ivfov5j8k5?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+
+$$Solution \; for \;the \;perfect \;complements$$
+
 **Note 1: Income Tax vs. Sale Tax**. We study choices and welfare implications under two tax specifications that provide the same income level fro the government.
 
 ## 2.2 Demand Function
