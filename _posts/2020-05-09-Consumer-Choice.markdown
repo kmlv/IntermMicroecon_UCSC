@@ -311,7 +311,7 @@ The next figure illustrates this solution. ■
 
 <iframe src="https://www.desmos.com/calculator/mp4hjlmp7o?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
-$$Solution \; for \;the \;perfect \;substitutes$$
+Solution for the perfect substitutes
 
 
 * **Optimal Choice with Perfect Complement Preferences**
@@ -363,7 +363,7 @@ The next figure illustrates this solution. ■
 
 <iframe src="https://www.desmos.com/calculator/ivfov5j8k5?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
-$$Solution \; for \;the \;perfect \;complements$$
+Solution for the perfect complements
 
 **Note 1: Income Tax vs. Sale Tax**. We study choices and welfare implications under two tax specifications that provide the same income level fro the government.
 
@@ -678,7 +678,7 @@ we conclude that this person should select the safe option. The following pictur
 
 <iframe src="https://www.desmos.com/calculator/he5z3o0d2s?embed" width="250px" height="250px" style="border: 1px solid #ccc" fra></iframe> 
 
-$$Risk \; averse\; choice$$
+Risk averse choice
 
 Note: You can access an interactive version of this graph [here](https://www.desmos.com/calculator/zhqanv1cib).
 
@@ -690,7 +690,7 @@ In addition, the utility from the safe project is $$u(18)=18$$. Thus, this perso
 
 <iframe src="https://www.desmos.com/calculator/doptgkp13w?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
-$$Risk \; neutral\; choice$$
+$$Risk neutral choice
 
 
 Finally, let us set $$u(c_i)=(c_i)^2$$. In this case, we have that
@@ -701,7 +701,7 @@ In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, th
 
 <iframe src="https://www.desmos.com/calculator/gkhimxfprg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
-$$Risk \; loving \; choice$$
+Risk loving choice
 
 
 We often classify individuals according to their attitudes toward risk. As we shall see, the standard classification is intimately related to our last example. It involves the comparison between the expected utility of the risky project
