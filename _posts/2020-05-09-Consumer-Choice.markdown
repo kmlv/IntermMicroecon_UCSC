@@ -668,7 +668,8 @@ $$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
 
 we conclude that this person should select the safe option. The following picture illustrates this first situation.
 
-**RISK AVERSE CHOICE** \\
+<iframe src="https://www.desmos.com/calculator/he5z3o0d2s?embed" width="250px" height="250px" style="border: 1px solid #ccc" fra></iframe> \\
+
 Note: You can access an interactive version of this graph [here](https://www.desmos.com/calculator/zhqanv1cib).
 
 Let us now suppose that $$u(c_i)=c_i$$. In this case, we have that
@@ -677,7 +678,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)+\frac{1}
 
 In addition, the utility from the safe project is $$u(18)=18$$. Thus, this person is just indifferent between the safe and the risky option.
 
-**RISK NEUTRAL CHOICE**
+<iframe src="https://www.desmos.com/calculator/doptgkp13w?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 Finally, let us set $$u(c_i)=(c_i)^2$$. In this case, we have that
 
@@ -685,7 +686,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{
 
 In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, this person clearly prefers the risky investment. ■
 
-**RISK LOVING CHOICE**
+<iframe src="https://www.desmos.com/calculator/gkhimxfprg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 We often classify individuals according to their attitudes toward risk. As we shall see, the standard classification is intimately related to our last example. It involves the comparison between the expected utility of the risky project
 
