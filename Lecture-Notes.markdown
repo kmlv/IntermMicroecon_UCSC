@@ -12,7 +12,7 @@ permalink: /Lecture-Notes/
 
 1. [Introduction](/IntermMicroecon_UCSC/Introduction/)
 2. [Consumer Choice](/IntermMicroecon_UCSC/Consumer-Choice/)
-3. Producer
+3. [Producer](/IntermMicroecon_UCSC/Producer/)
 4. Markets
 5. Game Theory
 
