@@ -14,7 +14,7 @@ permalink: /Lecture-Notes/
 2. [Consumer Choice](/IntermMicroecon_UCSC/Consumer-Choice/)
 3. [Producer](/IntermMicroecon_UCSC/Producer/)
 4. [Markets](/IntermMicroecon_UCSC/Markets/)
-5. Game Theory
+5. [Game Theory](/IntermMicroecon_UCSC/Markets/Game-Theory)
 
 
 Still work in process, check with KLV on how he prefers to format this page
