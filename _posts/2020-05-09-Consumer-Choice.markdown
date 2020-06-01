@@ -180,7 +180,7 @@ In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ a
 
 The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
 
-<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
 Budget Set and Budget Line
 
