@@ -412,13 +412,14 @@ The next figures provide a graphical representation of our comparative statics r
 
 Own price changes:
 
-<iframe src="https://www.desmos.com/calculator/ohmdkaq7xl?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
-<iframe src="https://www.desmos.com/calculator/khvoiu19sd?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
-[Optimal choice at different $$p_1$$ levels](https://www.desmos.com/calculator/pmsyvxyfto) and [demand curve](https://www.desmos.com/calculator/eovltdog2x)
+<iframe src="https://www.desmos.com/calculator/ohmdkaq7xl?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+[Optimal choice at different $$p_1$$ levels](https://www.desmos.com/calculator/pmsyvxyfto)
+<iframe src="https://www.desmos.com/calculator/khvoiu19sd?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+[Demand curve](https://www.desmos.com/calculator/eovltdog2x)
 
 Income Changes:
 
-<iframe src="https://www.desmos.com/calculator/v2cmacr4pg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/v2cmacr4pg?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 [Optimal choice at different income levels](https://www.desmos.com/calculator/dapbafrlqb)
 
