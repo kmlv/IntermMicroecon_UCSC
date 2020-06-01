@@ -692,7 +692,7 @@ In addition, the utility from the safe project is $$u(18)=18$$. Thus, this perso
 
 <iframe src="https://www.desmos.com/calculator/doptgkp13w?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
 
-$$Risk neutral choice
+Risk neutral choice
 
 
 Finally, let us set $$u(c_i)=(c_i)^2$$. In this case, we have that
