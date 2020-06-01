@@ -180,7 +180,9 @@ In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ a
 
 The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
 
-<img src="{{ site.baseurl }}/img/consumerchoice/BSandBC.PNG">
+<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+
+Budget Set and Budget Line
 
 <ins> Example </ins>: Suppose the government imposes a per unit tax of $$t$$ dollars on good 2. Then, the new budget line is
 
