@@ -107,10 +107,10 @@ In addition, for each $$k$$, the associated weakly preferred set is $$x_2\geq \f
 The next figure shows the typical shape of the indifference curves for the case of Perfect Substitutes (top, left), Perfect Complements (top, right), Cobb-Douglas (bottom, left) and CES (bottom, right). You can find an interactive version of this figure [here](https://www.desmos.com/calculator/sh2hmdkie9).
 
 
-<iframe src="https://www.desmos.com/calculator/uqprbpxskm?embed" width="200px" height="200px" style="border: 1px solid #ccc"></iframe> (a) Perfect Substitutes
-<iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="200px" height="200px" style="border: 1px solid #ccc"></iframe> b) Perfect Complements 
-<iframe src="https://www.desmos.com/calculator/jxqgojdwmh?embed" width="200px" height="200px" style="border: 1px solid #ccc"></iframe> (c) Cobb-Douglas
-<iframe src="https://www.desmos.com/calculator/l61fskhdck?embed" width="200px" height="200px" style="border: 1px solid #ccc"></iframe> (d) CES
+<iframe src="https://www.desmos.com/calculator/mpicyxcegq?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe> (a) Perfect Substitutes
+<iframe src="https://www.desmos.com/calculator/g53vweomdw?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe> b) Perfect Complements 
+<iframe src="https://www.desmos.com/calculator/jxqgojdwmh?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe> (c) Cobb-Douglas
+<iframe src="https://www.desmos.com/calculator/l61fskhdck?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe> (d) CES
 
 
 As we will explain, the marginal rate of substitution (MRS) is intimately related with the concept of marginal utility (MU). Thus, we start describing the latter.
