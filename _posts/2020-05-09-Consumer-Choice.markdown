@@ -703,7 +703,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{
 
 In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, this person clearly prefers the risky investment. ■
 
-<iframe src="https://www.desmos.com/calculator/gkhimxfprg?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/aggxajxkbb?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk loving choice
 
