@@ -491,7 +491,7 @@ $$Q^d(p,m^1,m^2) = x^1(p,m^1)+x^2(p,m^1)=20-p \quad if  \quad p > 10$$
 
 Note that we add quantities for the same price! The next picture illustrates this result.
 
-<img src="{{ site.baseurl }}/img/consumerchoice/lineardemand.PNG">
+<iframe src="https://www.desmos.com/calculator/ecwoxwelvk?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 When demands are linear, then there is usually a kink in the market demand.
 
@@ -516,7 +516,7 @@ $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
 The next picture shows the way in which $$ \lvert \epsilon \rvert$$ varies with $$x$$.
 
-<iframe src="https://www.desmos.com/calculator/pomqoonnyw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/pomqoonnyw?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Price elasticity with a linear demand: $$Q = 20 - p$$.
 
