@@ -680,7 +680,7 @@ $$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
 
 we conclude that this person should select the safe option. The following picture illustrates this first situation.
 
-<iframe src="https://www.desmos.com/calculator/he5z3o0d2s?embed" width="250px" height="250px" style="border: 1px solid #ccc" fra></iframe> 
+<iframe src="https://www.desmos.com/calculator/egg6txbvpl?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk averse choice
 
