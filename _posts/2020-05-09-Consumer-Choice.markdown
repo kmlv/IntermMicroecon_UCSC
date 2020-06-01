@@ -516,7 +516,7 @@ $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
 The next picture shows the way in which $$ \lvert \epsilon \rvert$$ varies with $$x$$.
 
-<iframe src="https://www.desmos.com/calculator/u1rcqtts34?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/sosciz6v5l?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Price elasticity with a linear demand: $$Q = 20 - p$$.
 
