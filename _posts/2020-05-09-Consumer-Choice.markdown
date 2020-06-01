@@ -680,7 +680,7 @@ $$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
 
 we conclude that this person should select the safe option. The following picture illustrates this first situation.
 
-<iframe src="https://www.desmos.com/calculator/vr1lyrwfl0?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/qdbdawe4df?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk averse choice
 
@@ -703,7 +703,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)^2+\frac{
 
 In addition, the utility from the safe project is $$u(18)=(18)^2=324$$. Thus, this person clearly prefers the risky investment. ■
 
-<iframe src="https://www.desmos.com/calculator/aggxajxkbb?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/lrrphfn4at?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk loving choice
 
