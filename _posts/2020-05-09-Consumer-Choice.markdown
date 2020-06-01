@@ -516,7 +516,9 @@ $$\lvert \epsilon \rvert=bp/(a-bp)$$
 
 The next picture shows the way in which $$ \lvert \epsilon \rvert$$ varies with $$x$$.
 
-<img src="{{ site.baseurl }}/img/consumerchoice/priceelasticitylineardemand.PNG">
+<iframe src="https://www.desmos.com/calculator/pomqoonnyw?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+
+Price elasticity with a linear demand: $$Q = 20 - p$$.
 
 Notice that the good is elastic or inelastic according to the amount that the consumer gets. ■
 
