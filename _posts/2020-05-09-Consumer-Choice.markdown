@@ -680,7 +680,7 @@ $$EU[risky \;project]=\frac{1}{2}(36)^{1/2}+\frac{1}{2}(0)^{1/2} = 3 <4.24$$
 
 we conclude that this person should select the safe option. The following picture illustrates this first situation.
 
-<iframe src="https://www.desmos.com/calculator/egg6txbvpl?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/vr1lyrwfl0?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk averse choice
 
@@ -692,7 +692,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)+\frac{1}
 
 In addition, the utility from the safe project is $$u(18)=18$$. Thus, this person is just indifferent between the safe and the risky option.
 
-<iframe src="https://www.desmos.com/calculator/vr1lyrwfl0?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/a5nmbw73r1?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk neutral choice
 
