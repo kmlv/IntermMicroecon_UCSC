@@ -180,7 +180,7 @@ In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ a
 
 The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
 
-<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Budget Set and Budget Line
 
@@ -204,7 +204,7 @@ The next figure shows the case of  a consumer with income level $$m=40$$, who fa
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
-<iframe src="https://www.desmos.com/calculator/framm2vb0u?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/framm2vb0u?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Graphical solution to the consumer problem
 
@@ -311,7 +311,7 @@ $$x_1^* = \frac{m}{p_1} = \frac{40}{2} = 20 \quad\quad x_2^* = 0 $$
 
 The next figure illustrates this solution. ■
 
-<iframe src="https://www.desmos.com/calculator/mp4hjlmp7o?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/mp4hjlmp7o?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Solution for the perfect substitutes
 
@@ -363,7 +363,7 @@ $$x_1^* = \frac{ma}{(ap_1 + bp_2)} = \frac{40}{2+2} = 10 \quad x_2^* = \frac{mb}
 
 The next figure illustrates this solution. ■
 
-<iframe src="https://www.desmos.com/calculator/ivfov5j8k5?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/ivfov5j8k5?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Solution for the perfect complements
 
@@ -692,7 +692,7 @@ $$EU[risky \;project]=\frac{1}{2}u(36)+\frac{1}{2}u(0) =\frac{1}{2}(36)+\frac{1}
 
 In addition, the utility from the safe project is $$u(18)=18$$. Thus, this person is just indifferent between the safe and the risky option.
 
-<iframe src="https://www.desmos.com/calculator/doptgkp13w?embed" width="250px" height="250px" style="border: 1px solid #ccc"></iframe>
+<iframe src="https://www.desmos.com/calculator/c1rycphmfg?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
 
 Risk neutral choice
 
