@@ -1,7 +1,7 @@
 ---
 layout: postWithoutDate
 title: "2 Consumer Choice"
-date:   2020-05-11
+date:   2020-05-10
 permalink: "/Consumer-Choice/"
 ---
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" ></script>
