@@ -1,6 +1,7 @@
 ---
 layout: postWithoutDate
 title: "Note on Math Review"
+date: 2020-05-08
 permalink: "/Note-on-Math-Review/"
 ---
 This course relies on your sharp knowledge of basic calculus and algebra. Here you have some review problems that you can use to refresh these mathematical tools. These exercises will not be graded.
