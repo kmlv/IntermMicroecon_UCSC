@@ -21,7 +21,9 @@ To explain the observed behavior of consumers and firms ---or, more broadly spea
 
 **Optimization:** Agents choose the best (or most desirable) option among all the options that are available to them.
 
-For instance, in the standard consumer problem, we assume that each person purchases the most desirable basket of goods that he can afford with his income level.
+For instance, in the standard consumer problem, we assume that each person purchases the most desirable bundle of goods that he can afford with his income level.
+
+Of course, this optimizing postulate does not fully reflect how people and firms behave in practice. Many cognitive limitations impede us to behave in such an ideal way. Through the years, many different behavioral models have being proposed to contemplate these limitations. Nevertheless, the optimizing behavior model is a great starting point to understand behavior and this model is still used in various applications.
 
 **Equilibrium:** In a market context, prices keep adjusting until demand equals supply.
 
