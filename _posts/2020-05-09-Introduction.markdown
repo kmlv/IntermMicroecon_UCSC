@@ -9,11 +9,9 @@ permalink: "/Introduction/"
 
 ## 1.1 What is Microeconomics?
 
-In the standard definition, Microeconomics is a branch of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of limited resources.
+Microeconomics is often defined as the area of economics that studies the behavior of individuals and firms in making decisions regarding the allocation of limited resources. However, to many economists (including us!) the most interesting aspect of microeconomics is not the subject matter itself but the conceptual framework we use to approach the problem of study. Specifically, we ---micro-economists--- think of individuals and firms (or, more generally, economic agents) as intelligent seekers of specific goals and postulate that many of the important social phenomena we observe in daily life results from this type of behavior. 
 
-However, to many economists (including us!) the most striking aspect of microeconomics is not the subject matter itself but the conceptual framework we use to approach the problem of study. Specifically, we ---micro-economists--- think of individuals and firms (or, more generally, economic agents) as intelligent seekers of specific goals and postulate that it is the pursuit of these goals that generates many of the important social phenomena we observe in daily life.
-
-A standard situation we can study with the conceptual framework we use in Microeconomics is the functioning (and success) of ride-hailing apps such as [UBER](https://en.wikipedia.org/wiki/Uber_(company)). (You can find [here](http://www.npr.org/sections/money/2015/07/31/428157211/episode-643-the-taxi-king) a podcast and here an academic article.) A bit more surprising is that we can use a similar methodology to evaluate, for instance, the possible impact of alternative policies to reduce crimes in [NYC](http://www.scientificamerican.com/article/how-new-york-beat-crime/). (You can find [here](http://blog.oup.com/2012/06/zimring-scientific-american-nyc-beat-crime/) an article about this topic.)
+A standard use of this framework allows us to study the functioning (and success) of ride-hailing apps such as UBER. A bit more surprising is that we can use a similar approach to evaluate, for instance, the possible impact of alternative policies to reduce crimes in NYC. (You can find [here](http://blog.oup.com/2012/06/zimring-scientific-american-nyc-beat-crime/) an article about this topic.)
 
 ## 1.2 Conceptual Framework
 
@@ -21,9 +19,9 @@ To explain the observed behavior of consumers and firms ---or, more broadly spea
 
 **Optimization:** Agents choose the best (or most desirable) option among all the options that are available to them.
 
-For instance, in the standard consumer problem, we assume that each person purchases the most desirable bundle of goods that he can afford with his income level.
+For instance, in the standard consumer problem, we assume that each person buys the most desirable set of goods that he can afford with his income level.
 
-Of course, this optimizing postulate does not fully reflect how people and firms behave in practice. Many cognitive limitations impede us to behave in such an ideal way. Through the years, many different behavioral models have being proposed to contemplate these limitations. Nevertheless, the optimizing behavior model is a great starting point to understand behavior and this model is still used in various applications.
+Of course, this optimizing postulate does not fully reflect how people and firms behave in practice. Many cognitive limitations impede agents to behave in such an ideal way. Through the years, alternative behavioral models have being proposed in economics to contemplate these limitations. Nevertheless, the optimizing behavior model is a great benchmark to incorporate these deviations, and it is also still quite used in used in many applications.
 
 **Equilibrium:** In a market context, prices keep adjusting until demand equals supply.
 
