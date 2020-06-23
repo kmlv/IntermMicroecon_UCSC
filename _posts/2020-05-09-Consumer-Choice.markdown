@@ -13,6 +13,8 @@ This section presents some standard economic models of consumer behavior.
 
 The basic model of consumer choice studies the decision of a single person regarding what goods to acquire, and how much to buy of each of them, taking as given the prices of the goods and the income level of the consumer. Our simple model assumes that each consumer chooses the “best” combination of goods ---or bundle---  that “he can afford”. The idea of “best” builds on the notions of preferences and utility; our model captures “affordability” via budget sets.
 
+To fix ideas, suppose you go to the supermarket with $100 dollars that you plan to spend in the visit. While you are there you can see many different goods that are sold at some given prices. The consumer problem postulates that among the all different ways in which you could allocate your $100 among these goods, you will select the one that makes you as happy as possible.
+
 **1. Preferences:** The preferences on an individual consist of his personal ranking over all possible alternatives. We often capture these preferences by the so called utility function.
 
 **2. Budget set:** The budget set of an individual is the collection of all alternatives that he can afford given his resources (income or wealth) and the prices of the goods he faces in the market.
@@ -32,6 +34,34 @@ To simplify the exposition, we will focus on a simple version of the consumer pr
 
 
 This simple two-goods model can be easily extended to more goods (e.g., it can be extended to the set of all goods you can get in the supermarket). We use the two-goods case because it helps us to illustrate the main concepts and tools in a simple way, often invoking a graphical representations of the model.
+
+## Budget Set
+
+The budget set is the set of all bundles or combinations of goods that are affordable by the consumer. That is, the set of all $$(x_1,x_2)$$ that satisfy:
+
+$$p_1x_1 + p_2x_2 \leq m$$
+
+where $$p_1$$, $$p_2$$ and m represent the price of good 1, the price of good 2, and the income level, respectively.
+
+The set of bundles that exhaust the income of the consumer is called the budget line:
+
+$$p_1x_1 + p_2x_2 = m$$
+
+In both cases, we also assume $$x_1 \geq 0$$ and $$x_2 \geq 0$$.
+
+In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ along the vertical axis, the slope of the budget line is given by $$-p_1/p_2$$. Notice that the maximum amount of good 1 that the consumer can purchase is given by the intercept of the budget line with the horizontal axis, and its magnitude is $$m/p_1$$. Similarly, for good 2, this magnitude is $$m/p_2$$.
+
+The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
+
+<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
+
+Budget Set and Budget Line
+
+<ins> Example </ins>: Suppose the government imposes a per unit tax of $$t$$ dollars on good 2. Then, the new budget line is
+
+$$p_1x_1 + (p_2 + t)x_2 = m$$
+
+Notice that the tax reduces the number of units the consumer can afford of *both* goods 1 and 2. This happens even while the tax only affects the price of good 2. ■
 
 ## Utility Function
 
@@ -161,34 +191,6 @@ In other words, the MRS remains the same for both utilities.■
 When the utility function increases in the consumption of each good, then the MRS is negative. This means that if the consumer sacrifices a bit of one good, then he must be compensated with a bit more of the other good to be as well as before.
 
 In addition, we often assume that the MRS is decreasing (in absolute value). This captures the idea that the consumer prefers some sort of diversification across goods ---he prefers to have some of each good rather than having a lot of one good and nothing of the other. A decreasing MRS means that the more the consumer sacrifices one good, the more he needs to be compensated with the other one to be as well as before. When this happens, we say that consumer preferences are convex.
-
-## Budget Set
-
-The budget set is the set of all bundles or combinations of goods that are affordable by the consumer. That is, the set of all $$(x_1,x_2)$$ that satisfy:
-
-$$p_1x_1 + p_2x_2 \leq m$$
-
-where $$p_1$$, $$p_2$$ and m represent the price of good 1, the price of good 2, and the income level, respectively.
-
-The set of bundles that exhaust the income of the consumer is called the budget line:
-
-$$p_1x_1 + p_2x_2 = m$$
-
-In both cases, we also assume $$x_1 \geq 0$$ and $$x_2 \geq 0$$.
-
-In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ along the vertical axis, the slope of the budget line is given by $$-p_1/p_2$$. Notice that the maximum amount of good 1 that the consumer can purchase is given by the intercept of the budget line with the horizontal axis, and its magnitude is $$m/p_1$$. Similarly, for good 2, this magnitude is $$m/p_2$$.
-
-The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
-
-<iframe src="https://www.desmos.com/calculator/orix0wnkaj?embed" width="500px" height="500px" style="border: 1px solid #ccc"></iframe>
-
-Budget Set and Budget Line
-
-<ins> Example </ins>: Suppose the government imposes a per unit tax of $$t$$ dollars on good 2. Then, the new budget line is
-
-$$p_1x_1 + (p_2 + t)x_2 = m$$
-
-Notice that the tax reduces the number of units the consumer can afford of *both* goods 1 and 2. This happens even while the tax only affects the price of good 2. ■
 
 ## Optimal Choice
 
