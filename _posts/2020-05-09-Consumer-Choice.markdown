@@ -11,7 +11,11 @@ This section presents some standard economic models of consumer behavior.
 
 ## 2.1 Rational Choice
 
-The basic model of consumer choice studies the decision of a single person regarding what goods to acquire, and how much to buy of each of them, taking as given the prices of the goods and the income level of the consumer. This simple model assumes that each consumer chooses the “best” combination of goods (or bundle) that “he can afford”. The idea of “best” builds on the notions of preferences and utility; our model captures “affordability” via budget sets.
+The basic model of consumer choice studies the decision of a single person regarding what goods to acquire, and how much to buy of each of them, taking as given the prices of the goods and the income level of the consumer. This simple model assumes that each consumer chooses the “best” combination of goods (or bundle) that he "can afford”. The idea of “best” builds on the notions of preferences and utility; our model captures “affordability” via budget sets.
+
+To fix ideas, suppose that you go to the supermarket with the idea of spending 100 dollars. While there, you can see many different goods that are sold at different prices. The consumer problem addresses the question of how to allocate the $100 among the goods you observe. Its solution postulates that, among all possible allocations, you will select the one that makes you as happy as possible.
+
+A bit more formally:
 
 **Preferences:** The preferences on an individual consist of his personal ranking over all possible alternatives. We often capture these preferences by the so called utility function.
 
@@ -19,9 +23,7 @@ The basic model of consumer choice studies the decision of a single person regar
 
 Under the maximization assumption, preferences and budget sets induce choices. As prices and/or income change, so does the budget set and (often) the combination of goods that the consumer selects. The demand function describes the consumption decisions for all different combinations of prices and income levels.
 
-To fix ideas, suppose that you go to the supermarket with the idea of spending 100 dollars. While there, you can see many different goods that are sold at different prices. The consumer problem addresses the question of how to allocate the $100 among the goods you observe. Its solution postulates that, among all possible allocations, you will select the one that makes you as happy as possible.
-
-To simplify the exposition, we will focus on a simple version of the consumer problem. The components of our model are as follows:
+To simplify the exposition, we focus on a simple version of the consumer problem. The components of our model are as follows:
 
 1. There are only two goods: good 1 and good 2.
 2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
@@ -38,15 +40,15 @@ The budget set is the set of all bundles (or combinations of goods) that are aff
 
 $$p_1x_1 + p_2x_2 \leq m$$
 
-where $$p_1$$, $$p_2$$ and m represent the price of good 1, the price of good 2, and the income level, respectively.
+where $$p_1$$, $$p_2$$ represent the prices of goods 1 and 2, respectively, and $$m$$ is his income level.
 
-The set of bundles that exhaust the income of the consumer is called the budget line:
+The set of bundles that exhaust the income of the consumer is called the budget line. It is given by
 
-$$p_1x_1 + p_2x_2 = m$$
+$$p_1x_1 + p_2x_2 = m$$.
 
 In both cases, we also assume $$x_1 \geq 0$$ and $$x_2 \geq 0$$.
 
-In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ along the vertical axis, the slope of the budget line is given by $$-p_1/p_2$$. Notice that the maximum amount of good 1 that the consumer can purchase is given by the intercept of the budget line with the horizontal axis, and its magnitude is $$m/p_1$$. Similarly, for good 2, this magnitude is $$m/p_2$$.
+In a graph where $$x_1$$ is represented along the horizontal axis, and $$x_2$$ along the vertical axis, the intersection of the budget line with the horizontal axis is $$m/p_1$$. This is the amount the consumer can get of good 1 if he allocates all his income on the first good. Similarly, the intersection of the budget line with the vertical axis is $$m/p_2$$. This is the amount the consumer can get of good 2 if he allocates all his income on the second good. The slope of the budget line is given by $$-p_1/p_2$$. 
 
 The next picture shows the budget set and line for the case of $$p_1 = 2$$, $$p_2 = 2$$ and $$m = 40$$.
 
@@ -62,7 +64,7 @@ Notice that the tax reduces the number of units the consumer can afford of *both
 
 ## Utility Function
 
-Consumer preferences represent a ranking over consumption bundles or combinations of different goods. For instance, if the consumer strictly prefers bundle $$(x_1^{'},x_2^{'})$$ = (1 pizza, 2 burritos) over bundle $$(x_1^{'},x_2^{'})$$ = (2 pizzas, 1 burrito), then the first combination of goods is ranked before the second one in the preferences of this consumer.
+Consumer preferences represent a ranking over the different combinations of goods (or bundles). For instance, if the consumer strictly prefers bundle $$(x_1^{'},x_2^{'})$$ = (1 pizza, 2 burritos) over bundle $$(x_1^{'},x_2^{'})$$ = (2 pizzas, 1 burrito), then the first combination of goods is ranked before the second one in the preferences of this consumer.
 
 We will always assume consumer preferences are transitive. Transitivity means that if a consumer prefers bundle $$a$$ over bundle $$b$$, and he also prefers bundle $$b$$ over bundle $$c$$, then it must be the case that the consumer prefers bundle $$a$$ over bundle $$c$$.
 
@@ -149,7 +151,7 @@ $$MU_1 = \frac{\partial u(x_1,x_2)}{\partial x_1} \quad and \quad MU_2 = \frac{\
 
 <ins> Example </ins>: $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$. Then,
 
-$$MU_1 (x_1,x_2) =\frac{1}{4}(x_1)^{-3/4} (x_2)^{3/4} \quad and \quad MU_2 (x_1,x_2) =\frac{3}{4}(x_1)^{1/4} (x_2)^{-1/4}  ■ $$
+$$MU_1 (x_1,x_2) =\frac{1}{4}(x_1)^{-3/4} (x_2)^{3/4} \quad and \quad MU_2 (x_1,x_2) =\frac{3}{4}(x_1)^{1/4} (x_2)^{-1/4}$$ ■ 
 
 We showed before that two different utility functions might induce the same ranking over consumption bundles. These two utility functions represent the same preferences. As the next example illustrates, an issue with the concept of marginal utility is that it is sensitive to the way in which we represent consumer preferences.
 
@@ -183,7 +185,7 @@ A very important property of the MRS is that (unlike the marginal utilities MUs)
 
 $$MRS(x_1, x_2) = \frac{-MU_1 (x_1,x_2) }{MU_2 (x_1,x_2)} = \frac{-x_2}{3x_1}$$
 
-In other words, the MRS remains the same for both utilities.■
+In other words, the MRS remains the same for both utilities. ■
 
 When the utility function increases in the consumption of each good, then the MRS is negative. This means that if the consumer sacrifices a bit of one good, then he must be compensated with a bit more of the other good to be as well as before.
 
@@ -272,7 +274,7 @@ $$\frac{x_2}{3x_1} = \frac{p_1}{p_2}$$
 
 Combining the latter with FOC3, we solve for $$x_1$$ and $$x_2$$ and obtain:
 
-$$x_1^* = \frac{1}{4} * \frac{40}{2} = 5 \quad and \quad x_2^* = \frac{3}{4} * \frac{40}{2} = 15   ■$$
+$$x_1^* = \frac{1}{4} * \frac{40}{2} = 5 \quad and \quad x_2^* = \frac{3}{4} * \frac{40}{2} = 15$$ ■
 
 * **Optimal Choice With Perfect Substitutes Preferences**
 
