@@ -66,18 +66,19 @@ Notice that the tax reduces the number of units the consumer can afford of *both
 
 Consumer preferences represent a ranking over the different combinations of goods (or bundles). For instance, if the consumer strictly prefers bundle $$(x_1^{'},x_2^{'})$$ = (1 pizza, 2 burritos) over bundle $$(x_1^{'},x_2^{'})$$ = (2 pizzas, 1 burrito), then the first combination of goods is ranked before the second one in the preferences of this consumer.
 
-We will always assume consumer preferences are transitive. Transitivity means that if a consumer prefers bundle $$a$$ over bundle $$b$$, and he also prefers bundle $$b$$ over bundle $$c$$, then it must be the case that the consumer prefers bundle $$a$$ over bundle $$c$$.
+There are two important assumptions that we often impose on preferences. Firstly, we assume consumer preferences are complete. Completeness means that the consumer can always compare any pair of budles and let us know which one he prefers the most. He can also tells us that he is indifferent between the two of them. In summary, completeness only rules us the possibility that the consumer tells us he "does not know" which combination of goods he prefers. 
 
-Transitivity is a very important property as it allows us to talk of the most preferred bundle! When it holds, we can often conveniently represent the preferences of a given consumer by what we call a utility function[^1].
+Secondly, we assume consumer preferences are transitive. Transitivity means that if a consumer prefers bundle $$a$$ over bundle $$b$$, and he also prefers bundle $$b$$ over bundle $$c$$, then it must be the case that the consumer prefers bundle $$a$$ over bundle $$c$$. Transitivity is a very important property as it allows us to talk of the most preferred bundle! 
+
+When these two assumptions hold, we can often conveniently represent the preferences of a given consumer by what we call a utility function[^1].
 
 Formally, a utility function is a function that assigns a number to each bundle in such a way that these numbers respect the underlying preference ranking of the consumer (i.e., the utility function assigns higher numbers to more preferred combinations of goods).
 
-<ins> Example </ins>:Let good 1 be pizza and good 2 be burrito. In addition, assume the preferences of a given consumer over slices of pizza and burritos are captured by the next utility function:
+<ins> Example </ins>: Let good 1 be pizza and good 2 be burrito. In addition, assume the preferences of a given consumer over slices of pizza and burritos are captured by the next utility function:
 
 $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$
 
 Suppose that a first bundle contains 16 slices of pizza and 1 burrito, so that u(16,1)=2. If a second bundle has 3 slices of pizzas and 3 burritos, then $$u(3,3)=3$$. It follows that this consumer prefers the second over the first combination of goods (i.e., he likes to have 3 slices of pizzas and 3 burritos more than having 16 slices of pizza and 1 burrito). ■
-
 
 Though there are many types of utility functions, in this course we will mainly focus on three of them: Cobb-Douglas, Perfect Complements (i.e., Leontieff), and Perfect Substitutes (i.e., linear). We will sometimes also use the CES utility function. (CES stands for constant elasticity of substitution. We will clarify this term later.) The specific mathematical (functional) form of each of these utilities is given in the next table.
 
@@ -92,7 +93,6 @@ CES| $$u(x_1,x_2) = (ax_1^r + bx_2^r)^{1/r}$$
 In the first three cases we typically assume $$a,b \ge 0$$. In the last one, we let $$r \leq 1$$. As we shall see, these parameters play very different roles in each specification.
 
 As we explained earlier, the important aspect of a utility function is that it captures the underlying preferences of a specific consumer. According to the ordinal utility theory, it is meaningful to ask whether a bundle is better than a second one, but not how much better it is. In other words, the actual numbers that a utility function assigns to the specific bundles are not important as far as they preserve (respect) the ranking of the individual over the combination of goods. It follows that when the preferences of an individual can be represented by a utility function, then an infinite number of them can capture the same preferences!
-
 
 <ins> Example </ins>: Suppose that our previous consumer strictly prefers 16 slices of pizza and 1 burrito to 3 slices of pizzas and 3 burritos. In addition, he is indifferent between having 3 slices of pizzas and 3 burritos and 2 slices of pizzas and 4 burritos. Moreover, he strictly prefers 2 slices of pizzas and 4 burritos to having 2 slices of pizzas and 2 burritos. In summary, this consumer ranks the different combinations of goods as follows:
 
