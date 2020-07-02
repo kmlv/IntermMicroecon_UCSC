@@ -13,17 +13,17 @@ This section presents some standard economic models of consumer behavior.
 
 The basic model of consumer choice studies the decision of a single person regarding what goods to acquire, and how much to buy of each of them, taking as given the prices of the goods and the income level of the consumer. This simple model assumes that each consumer chooses the “best” combination of goods (or bundle) that he "can afford”. The idea of “best” builds on the notions of preferences and utility; our model captures “affordability” via budget sets.
 
-To fix ideas, suppose that you go to the supermarket with the idea of spending 100 dollars. While there, you can see many different goods that are sold at different prices. The consumer problem addresses the question of how to allocate the $100 among the goods you observe. Its solution postulates that, among all possible allocations, you will select the one that makes you as happy as possible.
+To fix ideas, suppose that you go to the supermarket with 100 dollars. While there, you can see many different goods that are offered at different prices. The consumer problem addresses the question of how to allocate the $100 among the different goods. Its solution claims that, among all possible allocations, you will select the one that makes you as happy as possible.
 
-A bit more formally:
+The problem of the consumer has two main components:
 
 **Preferences:** The preferences on an individual consist of his personal ranking over all possible alternatives. We often capture these preferences by the so called utility function.
 
-**Budget set:** The budget set of an individual is the collection of all alternatives that he can afford given his resources (income or wealth) and the prices of the goods he faces in the market.
+**Budget set:** The budget set of an individual is the collection of all alternatives that he can afford given his resources (income or wealth) and the prices of the goods that the person faces in the market.
 
 Under the maximization assumption, preferences and budget sets induce choices. As prices and/or income change, so does the budget set and (often) the combination of goods that the consumer selects. The demand function describes the consumption decisions for all different combinations of prices and income levels.
 
-To simplify the exposition, we focus on a simple version of the consumer problem. The components of our model are as follows:
+To simplify the exposition, we focus on a simple version of the consumer problem. The main parts of the model are as follows:
 
 1. There are only two goods: good 1 and good 2.
 2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
@@ -32,7 +32,7 @@ To simplify the exposition, we focus on a simple version of the consumer problem
 
 <ins> Example </ins>: Suppose good 1 is orange juice and good 2 is salad. Then $$x_1$$ indicates the quantity of orange juice (say in liters) and $$x_2$$  is the quantity of salads (say in pounds). In this context, the combination (1/2, 1) represents the bundle of half liter of orange juice and one pound of salad. Suppose also that a liter of orange juice costs 5 dollars, a pound of salad costs 10 dollars, and the income level of the consumer is 500 dollars. In our notation, this information is concisely written as $$p_1$$ = 5, $$p_2$$ = 10, and $$m$$ = 500. ■
 
-This two-goods model can be easily extended to more goods (e.g., it can be extended to the set of all goods you can get in the supermarket). We use the two-goods case because it helps us to illustrate the main concepts and tools in a simple way, often invoking a graphical representations of the model.
+This two-goods model can be easily extended to more goods (e.g., it can be extended to the set of all goods you can get in the supermarket). We use the two-goods case because it helps us to illustrate the main concepts and tools in a simple way, often using a picture.
 
 ## Budget Set
 
@@ -70,7 +70,7 @@ There are two important assumptions that we often impose on preferences. Firstly
 
 Secondly, we assume consumer preferences are transitive. Transitivity means that if a consumer prefers bundle $$a$$ over bundle $$b$$, and he also prefers bundle $$b$$ over bundle $$c$$, then it must be the case that the consumer prefers bundle $$a$$ over bundle $$c$$. Transitivity is a very important property as it allows us to talk of the most preferred bundle! 
 
-When these two assumptions hold, we can often conveniently represent the preferences of a given consumer by what we call a utility function[^1].
+Only when these two assumptions hold, we can (often) conveniently represent the preferences of a given consumer by what we call a utility function[^1].
 
 Formally, a utility function is a function that assigns a number to each bundle in such a way that these numbers respect the underlying preference ranking of the consumer (i.e., the utility function assigns higher numbers to more preferred combinations of goods).
 
@@ -78,9 +78,9 @@ Formally, a utility function is a function that assigns a number to each bundle 
 
 $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$
 
-Suppose that a first bundle contains 16 slices of pizza and 1 burrito, so that u(16,1)=2. If a second bundle has 3 slices of pizzas and 3 burritos, then $$u(3,3)=3$$. It follows that this consumer prefers the second over the first combination of goods (i.e., he likes to have 3 slices of pizzas and 3 burritos more than having 16 slices of pizza and 1 burrito). ■
+Suppose that a first bundle contains 16 slices of pizza and 1 burrito, so that $$u(16,1)=2$$. If a second bundle has 3 slices of pizzas and 3 burritos, then $$u(3,3)=3$$. It follows that this consumer prefers the second over the first combination of goods (i.e., he likes to have 3 slices of pizzas and 3 burritos more than having 16 slices of pizza and 1 burrito). ■
 
-Though there are many types of utility functions, in this course we will mainly focus on three of them: Cobb-Douglas, Perfect Complements (i.e., Leontieff), and Perfect Substitutes (i.e., linear). We will sometimes also use the CES utility function. (CES stands for constant elasticity of substitution. We will clarify this term later.) The specific mathematical (functional) form of each of these utilities is given in the next table.
+Though there are many types of utility functions, three of them are of particular importance: Cobb-Douglas, Perfect Complements (i.e., Leontieff), and Perfect Substitutes (i.e., linear). We will sometimes also use the CES utility function. (CES stands for constant elasticity of substitution. We will clarify this term later.) The specific mathematical (functional) form of each of these utilities is given in the next table.
 
 Utility Function | Mathematical Form
 :----------------|:-----------------
@@ -102,7 +102,7 @@ $$1^{st} \; (16,1); \quad 2^{nd} \;(3,3) \; and \; (2,4); \quad 3^{rd}\; (2,2)$$
 
 It follows that a utility function represents his preferences if and only if it assigns numbers to each combination of goods in the following way:
 
-$$u(16,1) > u(3,3)=(2,4) > u(2,2)$$
+$$u(16,1) > u(3,3)=u(2,4) > u(2,2)$$
 
 
 Let us now consider the three possible utility functions shown in the next table. Which of these three utilities represent the preferences we just described?
@@ -116,7 +116,7 @@ $$(2,2)$$|3|2|-1
 
 It is clear that Utility 1 does not do so. The reason is that it assigns to bundle $$(3,3)$$ a higher number than to bundle $$(2,4)$$, contradicting the fact that the consumer is indifferent between these two combinations of goods. On the other hand, even when Utility 2 and Utility 3 assign different numbers to the bundles, both of them are consistent with the preference ranking of the consumer. Therefore, Utility 2 and Utility 3 both represent this consumer’s preferences. ■
 
-There are two concepts associated with the utility function, which play a key role in explaining consumer behavior, namely, indifference curves and marginal rate of substitution. We next elaborate on each of them.
+There are two concepts associated with the utility function, which play a key role in explaining consumer behavior, namely, indifference curves and marginal rate of substitution. We describe each of them next.
 
 An indifference curve is the set of all bundles that a consumer regards as equally desirable. In other words, it is the set of all combinations of goods that give the consumer the same utility level.
 
@@ -144,12 +144,12 @@ The next figure shows the typical shape of the indifference curves for the case 
 
 As we will explain, the marginal rate of substitution (MRS) is intimately related with the concept of marginal utility (MU). Thus, we start describing the latter.
 
-The marginal utility of good 1 captures the extra utility the consumer gets if he slightly increases the consumption of good 1, while keeping fixed the consumption of the second one. We can similarly define the marginal utility of good 2. When the utility function $$u(x_1,x_2)$$ is differentiable, then the marginal utilities of goods 1 and 2 (denoted by $$MU_1$$ and $$MU_2$$) are simply the partial derivatives of $$u(x_1,x_2)$$ with respect to goods 1 and 2, respectively. That is,
+The marginal utility of good 1 captures the extra utility the consumer gets if he slightly increases the consumption of good 1, while keeping fixed the consumption of the second good. We can similarly define the marginal utility of good 2. When the utility function $$u(x_1,x_2)$$ is differentiable, then the marginal utilities of goods 1 and 2, denoted by $$MU_1$$ and $$MU_2$$, are simply the partial derivatives of $$u(x_1,x_2)$$ with respect to goods 1 and 2, respectively. That is,
 
 $$MU_1 = \frac{\partial u(x_1,x_2)}{\partial x_1} \quad and \quad MU_2 = \frac{\partial u(x_1,x_2)}{\partial x_2}$$
 
 
-<ins> Example </ins>: $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$. Then,
+<ins> Example </ins>: Let $$u(x_1,x_2) = (x_1)^{1/4} (x_2)^{3/4}$$. Then,
 
 $$MU_1 (x_1,x_2) =\frac{1}{4}(x_1)^{-3/4} (x_2)^{3/4} \quad and \quad MU_2 (x_1,x_2) =\frac{3}{4}(x_1)^{1/4} (x_2)^{-1/4}$$ ■ 
 
@@ -162,7 +162,7 @@ $$MU_1 (x_1,x_2) =(x_1)^{-3/4} (x_2)^{3/4} \quad and \quad MU_2 (x_1,x_2) =3(x_1
 
 Since this utility is just $$u(x_1,x_2)=(x_1)^{1/4} (x_2)^{3/4}$$ multiplied by 4, it represents the same ranking over consumption bundles as the utility of the previous example. Nevertheless, the two MUs are four times as large with $$u(x_1,x_2)=4(x_1)^{1/4} (x_2)^{3/4}$$ as compared to $$u(x_1,x_2)=(x_1)^{1/4} (x_2)^{3/4}$$ ■
 
-Notice that the assumption of monotonicity implies that MUs are always positive.
+Notice that the utility function is monotone increasing in the two goods (i.e., more is always better!) then the MUs are always positive.
 
 As we mentioned above, a second concept related to the utility function that is very important in economics is the marginal rate of substitution (MRS). The MRS is a measure of the relative value of good 1 in terms of good 2. In particular, it measures (approximately) how much the consumer is willing to give up of good 2 in order to obtain an additional unit of good 1.
 
