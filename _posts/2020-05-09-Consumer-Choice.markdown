@@ -232,11 +232,11 @@ $$\partial L / \partial x_1= ax_1^{a-1} x_2^b -\lambda p_1 = 0$$  (FOC1) \\
 $$\partial L / \partial x_2= bx_1^a x_2^{b-1} -\lambda p_2 = 0$$  (FOC2) \\
 $$\partial L / \partial \lambda = -p_1x_1-p_2x_2+m = 0$$ (FOC3)
 
-To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, and $$lambda$$ that solve this system of three equations and three unknowns (as a function of $$p_1$$, $$p_2$$ and $$m$$).
+To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, and $$\lambda$$ that solve this system of three equations and three unknowns (as a function of $$p_1$$, $$p_2$$ and $$m$$).
 
 We can solve this system of equations by finding a conection between $$x_1$$ and $$x_2$$ via FOC1 and FOC2. In particular, FOC1 and FOC2 can be re-written as 
 
-$$ \frac{ax_1^{a-1} x_2^b}{p_1} = lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = lambda$$
+$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = \lambda$$
 
 Making these two terms equal to each other we get:
 
