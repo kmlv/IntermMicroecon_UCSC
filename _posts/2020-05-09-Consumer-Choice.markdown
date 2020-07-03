@@ -236,7 +236,7 @@ To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, an
 
 We can solve this system of equations by finding a conection between $$x_1$$ and $$x_2$$ via FOC1 and FOC2. In particular, FOC1 and FOC2 can be re-written as 
 
-$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = \lambda$$
+$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = \lambda $$
 
 Making these two terms equal to each other we get:
 
