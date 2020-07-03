@@ -236,7 +236,7 @@ To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, an
 
 We can solve this system of equations by finding a conection between $$x_1$$ and $$x_2$$ via FOC1 and FOC2. In particular, FOC1 and FOC2 can be re-written as 
 
-$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = \lambda $$
+$$ \frac{ax_1^{a-1} x_2^b}{p_1} = \lambda \quad and \quad \frac{bx_1^a x_2^{b-1}}{p_2} = \lambda $$
 
 Making these two terms equal to each other we get:
 
@@ -288,9 +288,9 @@ The consumer problem with perfect substitute preferences is given by:
 
 $$ max_{x_1,x_2} \; \{ax_1+bx_2: p_1x_1+p_2x_2=m\}$$
 
-In this case, the MRS between the goods is given by:
+In this case, the MRS (in absolute value) between the goods is given by:
 
-$$MRS = \frac{\partial u /\partial x_1}{\partial u/\partial x_2}$$
+$$MRS = a/b$$
 
 Recall that the MRS defines the relative value of good 1 in terms of good 2 from the perspective of the consumer. With perfect substitute preferences, the MRS is just a constant.
 
@@ -302,7 +302,7 @@ Case 1: If $$MRS = a/b > p_1/p_2$$ then $$x_1^* = m/p_1$$ and $$x_2^* = 0$$
 
 Case 2: If $$MRS = a/b < p_1/p_2$$ then $$x_1^* = 0$$ and $$x_2^* = m/p_2$$
 
-Case 3: If $$MRS = a/b = p_1/p_2$$ then $$x_1^* \in [0,m/p_1]$$ and $$x_2^* \in [0,m/p_2]$$ such that $$x_1^* + x_2^* =m$$
+Case 3: If $$MRS = a/b = p_1/p_2$$ then $$x_1^* \in [0,m/p_1]$$ and $$x_2^* \in [0,m/p_2]$$ such that $$p_1x_1^*+p_2x_2^*=m$$
 
 To understand the first case, notice that $$a/b > p_1/p_2$$ means that the extra value of the first good as compared to the second one from the perspective of the consumer is higher than the extra cost of getting the first good as compared to getting the second one. Thus, it is convenient for this person to spend all his income in the first good. Case 2 has a similar explanation. Case 3 corresponds to a situation in which the MRS equals the relative prices; in this last case, the consumer is indifferent between spending all, some, or no money in good 1 as far as he spends the rest of his income in the other good
 
