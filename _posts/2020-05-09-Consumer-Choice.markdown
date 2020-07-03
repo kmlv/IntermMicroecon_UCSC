@@ -197,11 +197,11 @@ We have discussed both consumer’s preferences (captured by his utility functio
 
 Mathematically, this implies that the consumer solves the following problem:
 
-$$ max_{x1,x2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
+$$ max_{x_1,x_2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
 
 We start with a graphical explanation for the solution of the consumer problem.
 
-The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x1,x2)=x_1^{3/4}x_2^{1/4}$$. The left panel of the figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$ and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer[^2]. Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
+The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x_1,x_2)=x_1^{3/4}x_2^{1/4}$$. The figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$, and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer.[^2] Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
@@ -220,7 +220,7 @@ We now present the mathematical solution of the consumer problem for three of th
 
 The consumer problem with Cobb-Douglas preferences is given by
 
-$$ max_{x1,x2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
+$$ max_{x_1,x_2} \; \{x_1^a x_2^b: p_1x_1+p_2x_2=m\}$$
 
 To find the optimal bundle when preferences are Cobb-Douglas (C-D), we use the Lagrangian method. The associated Lagrangian function is
 
@@ -232,9 +232,13 @@ $$\partial L / \partial x_1= ax_1^{a-1} x_2^b -\lambda p_1 = 0$$  (FOC1) \\
 $$\partial L / \partial x_2= bx_1^a x_2^{b-1} -\lambda p_2 = 0$$  (FOC2) \\
 $$\partial L / \partial \lambda = -p_1x_1-p_2x_2+m = 0$$ (FOC3)
 
-To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, and that solve this system of three equations and three unknowns (as a function of $$p_1$$, $$p_2$$ and $$m$$).
+To find the optimal consumption bundle, we need to find the $$x_1$$, $$x_2$$, and $$lambda$$ that solve this system of three equations and three unknowns (as a function of $$p_1$$, $$p_2$$ and $$m$$).
 
-We can solve this system of equations by first obtaining an expression for from both FOC1 and FOC2, and then make these two terms equal to each other. Doing so we get:
+We can solve this system of equations by finding a conection between $$x_1$$ and $$x_2$$ via FOC1 and FOC2. In particular, FOC1 and FOC2 can be re-written as 
+
+$$ \frac{ax_1^{a-1} x_2^b}{p_1} = lambda and \frac{bx_1^a x_2^{b-1}}{p_2} = lambda$$
+
+Making these two terms equal to each other we get:
 
 $$ \frac{ax_1^{a-1} x_2^b}{p_1} = \frac{bx_1^a x_2^{b-1}}{p_2}$$
 
@@ -246,7 +250,7 @@ Combining this last result with FOC3, we finally get:
 
 $$x_1^* = \frac{a}{a+b}\frac{m}{p_1} \quad\quad x_2^* = \frac{b}{a+b}\frac{m}{p_2}$$
 
-To find $$\lambda^* $$, we can simply plug $$x_1^* $$ and $$ x_2^* $$ into either FOC1 or FOC2.
+(To find $$\lambda^* $$, we can simply plug $$x_1^* $$ and $$ x_2^* $$ into either FOC1 or FOC2, though we are usually not interesting in the value of this variable.)
 
 It follows from our previous results, that the optimal solution satisfies
 
@@ -254,7 +258,7 @@ $$MRS = \frac{p_1}{p_2} \quad and \quad m = p_1x_1 + p_2x_2.$$
 
 The first condition states that the relative value of the goods from the perspective of the consumer has to equal their relative value from the perspective of the market. The second condition simply states that the optimal bundle must be on the budget line.
 
-<ins> Example </ins>:Let us assume that $$u(x_1,x_2=x_1^a x_2^b$$ with $$a = ¼$$, $$b = ¾$$, $$m = 40$$, $$p_1 = 2$$ and $$p_2 = 2$$. Thus, the Lagrangian of the problem is:
+<ins> Example </ins>: Let us assume that $$u(x_1,x_2) = x_1^a x_2^b$$ with $$a = ¼$$, $$b = ¾$$, $$m = 40$$, $$p_1 = 2$$ and $$p_2 = 2$$. Thus, the Lagrangian of the problem is:
 
 $$L(x_1,x_2,\lambda)=x_1^{1/4}x_2^{3/4} -\lambda(2x_1+2x_2-40)$$
 
@@ -264,7 +268,7 @@ $$\partial L / \partial x_1= (1/4)x_1^{1/4-1} x_2^{3/4} -\lambda 2 = 0$$  (FOC1)
 $$\partial L / \partial x_2= (3/4)x_2^{3/4} x_1^{1/4-1} -\lambda 2 = 0$$  (FOC2) \\
 $$\partial L / \partial \lambda = 40-2x_1-2x_2 = 0$$ (FOC3)
 
-To find the optimal x_1 and x_2, we first get from FOC1 and FOC2 and then make these two terms equal to each other:
+To find the optimal $$x_1$$ and $$x_2$$, we first get from FOC1 and FOC2 and then make these two terms equal to each other:
 
 $$ \frac{1/4 x_1^{-3/4} x_2^{3/4}}{2} = \frac{3/4 x_2^{-1/4} x_1^{1/4}}{2}$$
 
@@ -282,7 +286,7 @@ When the goods are perfect substitutes from the perspective of the consumer, the
 
 The consumer problem with perfect substitute preferences is given by:
 
-$$ max_{x_1,x_2} \; \{ax_1,bx_2: p_1x_1+p_2x_2=m\}$$
+$$ max_{x_1,x_2} \; \{ax_1+bx_2: p_1x_1+p_2x_2=m\}$$
 
 In this case, the MRS between the goods is given by:
 
