@@ -201,7 +201,7 @@ $$ max_{x_1,x_2} \; \{u(x_1,x_2): p_1x_1+p_2x_2=m\}$$
 
 We start with a graphical explanation for the solution of the consumer problem.
 
-The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x_1,x_2)=x_1^{3/4}x_2^{1/4}$$. The figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$, and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer.[^2] Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
+The next figure shows the case of  a consumer with income level $$m=40$$, who faces prices $$p_1=2$$ and  $$p_2=2$$. Thus, his budget set is  $$2x_1+2x_2 \leq 40$$, which is illustrated in the shaded triangular area. Suppose that the utility function of this consumer has a Cobb-Douglas specification $$u(x_1,x_2)=x_1^{3/4}x_2^{1/4}$$. The figure also shows four ICs corresponding to the following different utility levels: $$k_1=6$$, $$k_2=9$$, $$k_3=11.39$$, and $$k_4=15$$. As it is readily verified, the further away from the origin, the higher the utility level of the consumer.[^2] Recall that we assume the consumer acquires the most desirable combination of goods among the ones that he can afford. This consumer can definitely get a utility level of 6 ---since there are some affordable bundles (under the shaded area) that provide this level of satisfaction. The same applies to a utility of level of 9. Notice that this is not true for a utility of level 15 ---since there is no affordable bundle that provides the consumer this level of satisfaction. It turns out that, in this example, the highest achievable utility level is $$k_3=5^{1/4}15^{3/4}= 11.39$$, with the optimal consumption bundle being $$(5,15)$$.
 
 It follows from our simple example that the best affordable combination of goods is the one that belongs to the highest IC that just touches ---usually in only one point--- the budget constraint.
 
@@ -451,9 +451,9 @@ $$Could \; these \; choices \; have \; been \; made \; by \; a \; utility \; max
 
 The answer is no. The reason is as we describe next.
 
-When the prices and income level were given by $$p_1=2, p_2=1,$$ and $$m=10$$, the consumer selected 4 units of good 1 and 2 units of good 2. Notice that, since $$2x1+17<10$$, he could have selected to consume 1 unit of good 1 and 7 units of good 2. This is telling us that this consumer strictly prefers bundle (4, 2) to bundle (1, 7).
+When the prices and income level were given by $$p_1=2, p_2=1,$$ and $$m=10$$, the consumer selected 4 units of good 1 and 2 units of good 2. Notice that, since $$2*1+17<10$$, he could have selected to consume 1 unit of good 1 and 7 units of good 2. This is telling us that this consumer strictly prefers bundle (4, 2) to bundle (1, 7).
 
-Alternatively, when the prices and income level of the consumer were given by $$p_1=1, p_2=1,$$ and $$m=8$$, he selected 1 unit of good 1 and 7 units of good 2. Notice that, since $$1x4+1x2<8$$, he could have selected to consume 4 units of good 1 and 2 units of good 2. Thus, this consumer strictly prefers bundle (1, 7) to bundle (4, 2) which contradicts our previous claim. ■
+Alternatively, when the prices and income level of the consumer were given by $$p_1=1, p_2=1,$$ and $$m=8$$, he selected 1 unit of good 1 and 7 units of good 2. Notice that, since $$1*4+1*2<8$$, *he could have selected to consume 4 units of good 1 and 2 units of good 2. Thus, this consumer strictly prefers bundle (1, 7) to bundle (4, 2) which contradicts our previous claim. ■
 
 The WARP simply formalizes our observations in the last example.
 
@@ -532,6 +532,8 @@ Notice that the good is elastic or inelastic according to the amount that the co
 
 ## 2.3 Intertemporal Choice
 
+## Consuming Today or Tomorrow?
+
 The model we studied in the last section assumes that either there is a single period of time or that the consumer spends all his income every period, without saving or borrowing. This section shows that a similar approach can be used to model consumer behavior across different periods of time.
 
 This extension will allow us to understand the relationship between saving (or borrowing) and the interest rate. It is also important as it shows that, with small modifications, our initial model can accommodate many situations of interest.
@@ -543,23 +545,23 @@ In our simple intertemporal choice model, consumers decide how to allocate their
 3. Income levels: current income $$(m_1)$$ and future income $$(m_2)$$
 4. Interest rate: $$r$$
 
-As you can see, we make a few simplifying assumptions. First, we assume that there is no inflation. Second, we assume there is a  bank that allows the consumer to either save his current income $$(m_1)$$ or to borrow up from his future income $$(m_2)$$. Moreover, we suppose that the interest rate $$r$$ is the same for saving and borrowing money. (These restrictions can be easily relaxed with small, though probably tedious, modifications of our main results.)
+As you can see, we make a few simplifying assumptions. First, we assume that there is no inflation. Second, we assume there is a  bank that allows the consumer to either save his current income $$(m_1)$$ or to borrow up from his future income $$(m_2)$$. Moreover, we suppose that the interest rate $$r$$ is the same for saving and borrowing money. All these restrictions can be easily relaxed with small, though probably tedious, modifications of our main results.
 
 In the intertemporal model, consumers’ preferences are captured by a utility function over current and future consumption
 
 $$u(c_1,c_2)$$
 
-Because we are allowing the consumer to either save or borrow money, the consumer faces a single budget constraint for the “whole life” ---or two periods. Expressed in future value, the lifetime income of this person is $$(1+r)m_1+m_2$$. To understand better this equation, notice that (1+r) represents the extra income the consumer can experience in the second period per dollar that he saves in the first period of time. If in period of time 1 the consumer puts 1 dollar of his income in the bank, then in the second period the bank gives the consumer the dollar he invested plus the interest rate r. Similarly, her lifetime consumption is $$(1+r)c_1+c_2$$. His budget constraint simply reflects that these two amounts must be the same. That is,
+Because we are allowing the consumer to either save or borrow money, the consumer faces a single budget constraint for the “whole life” ---or two periods. Expressed in future value, the lifetime income of this person is $$(1+r)m_1+m_2$$. To understand better this equation, notice that (1+r) represents the extra income the consumer could get in the second period per dollar that he saves in the first period of time. If in period of time 1 the consumer puts 1 dollar of his income in the bank, then in the second period the bank gives the consumer the dollar he invested plus the interest rate r. Similarly, her lifetime consumption (in period of time 2) is $$(1+r)c_1+c_2$$. His budget constraint simply reflects that these two amounts must be the same. That is,
 
 $$(1+r)c_1+c_2=(1+r)m_1+m_2$$
 
-Notice that, in a graph where c1 is in the horizontal axis and c2 is in the vertical axis, the slope of the budget line is $$-(1+r)$$.
+Notice that, in a graph where $$c_1$$ is in the horizontal axis and $$c_2$$ is in the vertical axis, the slope of the budget line is $$-(1+r)$$.
 
 We can also write the budget line in present value terms
 
 $$c_1+c_2/(1+r)=m_1+m_2/(1+r)$$
 
-In this representation, $$1/(1+r)$$ indicates how much more the consumer can buy in period of time 1 if he sacrifices 1 unit of consumption in period 2. To achieve this goal, the consumer borrows $$1/(1+r)$$ dollars from the bank in the first period of time with the promise of paying $$[1/(1+r)]* (1+r)=1$$ to the bank in period of time 2.
+In this representation, $$1/(1+r)$$ indicates the extra consumption the consumer could have in period of time 1 if he sacrifices $1 of consumption in the second period of time. To achieve this goal, the consumer borrows $$1/(1+r)$$ dollars from the bank in the first period of time with the promise of paying $$[1/(1+r)]* (1+r)=1$$ to the bank in period of time 2.
 
 The (intertemporal) problem of the consumer is as follows:
 
@@ -583,6 +585,8 @@ Given the connection we just established between this model and the initial cons
 
 $$c_1^* =(1/4)[(1+r)m_1+m_2][1/(1+r)] \quad and \quad c_2^* =(3/4)[(1+r)m_1+m_2] \quad$$ ■
 
+## Investment Decision
+
 We just studied the optimal allocation of consumption levels between today and tomorrow. Let us next assume that our intertemporal consumer faces the possibility of investing some amount of money today with the promise of receiving some specific return tomorrow. Should the consumer make such an investment? We now develop a criterion which the consumer should use in deciding whether or not to do so.
 
 To be more clear, let us consider an investment which has a negative cash flow of -$A today ---the investment--- and a positive cash flow of $B in 1 year ---the return. The question we want to address is
@@ -598,10 +602,6 @@ $$-A + B/(1+r) \geq  0$$
 (Positive Net Present Value in Finance.) The reason is that if $$-A + B/(1+r) \geq  0$$,  then the budget line of the consumer shifts up.
 
 Notice that the previous rule does not depend on the preferences of the consumer!
-
-**Note 3: Investment on Schooling**. We study investment on schooling with and without borrowing constraints
-
-**Note 4: Choosing a Retirement Plan**. We study the selection of two different retirement plans.
 
 ## 2.4 Choice Under Risk
 
