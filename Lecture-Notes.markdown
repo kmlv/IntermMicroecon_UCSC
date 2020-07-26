@@ -12,9 +12,9 @@ permalink: /Lecture-Notes/
 
 1. [Introduction](/IntermMicroecon_UCSC/Introduction/)
 2. [Consumer Choice](/IntermMicroecon_UCSC/Consumer-Choice/)
-3. [Producer](/IntermMicroecon_UCSC/Producer/)
+3. [Producer](/IntermMicroecon_UCSC/Producer/) Click [here](/IntermMicroecon_UCSC/Producer-Alt-Notes) for Alternative Notes
 4. [Markets](/IntermMicroecon_UCSC/Markets/)
-5. [Game Theory](/IntermMicroecon_UCSC/Markets/Game-Theory)
+5. [Game Theory](/IntermMicroecon_UCSC/Game-Theory)
 
 
 Still work in process, check with KLV on how he prefers to format this page
