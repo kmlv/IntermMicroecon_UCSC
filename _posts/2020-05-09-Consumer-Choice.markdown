@@ -13,7 +13,7 @@ This section presents some standard economic models of consumer behavior.
 
 The basic model of consumer choice studies the decision of a single person regarding what goods to acquire, and how much to buy of each of them, taking as given the prices of the goods and the income level of the consumer. This simple model assumes that each consumer chooses the “best” combination of goods (or bundle) that he "can afford”. The idea of “best” builds on the notions of preferences and utility; our model captures “affordability” via budget sets.
 
-To fix ideas, suppose that you go to the supermarket with $100. While there, you can see many different goods that are offered at different prices. The consumer problem addresses the question of how to allocate the $100 among the different goods. Its solution claims that, among all possible allocations, you will select the one that makes you as happy as possible.
+To fix ideas, suppose that you go to the supermarket with $100. While there, you can see all the goods that are offered and their corresponding prices. The consumer problem addresses the question of how to allocate the $100 among the different goods. Its solution claims that, among all possible allocations, you will select the one that makes you as happy as possible.
 
 The problem of the consumer has two main components:
 
