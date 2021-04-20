@@ -63,7 +63,7 @@ Notice that the tax reduces the number of units the consumer can afford of *both
 
 ## Utility Function
 
-Consumer preferences represent a ranking over the different combinations of goods (or bundles). For instance, if the consumer strictly prefers bundle $$(x_1^{'},x_2^{'})$$ = (1 pizza, 2 burritos) over bundle $$(x_1^{'},x_2^{'})$$ = (2 pizzas, 1 burrito), then the first combination of goods is ranked before the second one in the preferences of this consumer.
+Consumer preferences capture a ranking over the different combinations of goods (or bundles). For instance, if the consumer strictly prefers bundle $$(x_1^{'},x_2^{'})$$ = (1 pizza, 2 burritos) over bundle $$(x_1^{'},x_2^{'})$$ = (2 pizzas, 1 burrito), then the first combination of goods is ranked before the second one in the preferences of this consumer.
 
 There are two important assumptions that we often impose on preferences. Firstly, we assume consumer preferences are complete. Completeness means that the consumer can always compare any pair of budles and let us know which one he prefers the most. He can also tells us that he is indifferent between the two of them. In summary, completeness only rules us the possibility that the consumer tells us he "does not know" which combination of goods he prefers. 
 
