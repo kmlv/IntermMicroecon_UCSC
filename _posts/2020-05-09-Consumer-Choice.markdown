@@ -35,7 +35,7 @@ This two-goods model can be easily extended to more goods (e.g., it can be exten
 
 ## Budget Set
 
-The budget set is the set of all bundles (or combinations of goods) that are affordable by the consumer. That is, the set of all $$(x_1,x_2)$$ that satisfy:
+The budget set is the set of all bundles (or combinations of goods) that are affordable by the consumer. That is, the set of all $$(x_1,x_2)$$ that satisfy
 
 $$p_1x_1 + p_2x_2 \leq m$$
 
