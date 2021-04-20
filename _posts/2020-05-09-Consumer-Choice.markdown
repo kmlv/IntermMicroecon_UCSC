@@ -17,7 +17,7 @@ To fix ideas, suppose a person goes to the supermarket with $100. While there, h
 
 The problem of the consumer has two main components:
 
-**Preferences:** The preferences on an individual consist of his personal ranking over all possible alternatives. We often capture these preferences by the so called utility function.
+**Preferences:** The preferences of a person consist of his personal ranking over all possible alternatives. We often capture these preferences by the so called utility function.
 
 **Budget set:** The budget set of an individual is the collection of all alternatives that he can afford given his resources (income or wealth) and the prices of the goods that the person faces in the market.
 
