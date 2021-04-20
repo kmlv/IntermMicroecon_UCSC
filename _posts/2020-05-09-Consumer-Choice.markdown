@@ -25,7 +25,7 @@ Under the maximization assumption, preferences and budget sets induce choices. A
 
 To simplify the exposition, we focus on a simple version of the consumer problem. The main parts of the model are as follows:
 
-1. There are only two goods: good 1 and good 2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
+1. There are only two goods, good 1 and good 2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
 2. The prices of goods 1 and 2 are represented by $$p_1$$ and $$p_2$$, respectively.
 3. The income level of the consumer is denoted by $$m$$.
 
