@@ -25,12 +25,11 @@ Under the maximization assumption, preferences and budget sets induce choices. A
 
 To simplify the exposition, we focus on a simple version of the consumer problem. The main parts of the model are as follows:
 
-1. There are only two goods: good 1 and good 2.
-2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
-3. The prices of the goods are represented by $$p_1$$ and $$p_2$$, respectively.
-4. The income level of the consumer is denoted by $$m$$.
+1. There are only two goods: good 1 and good 2. We represent the quantities of these goods as $$x_1$$ and $$x_2$$, respectively. The ordered pair $$(x_1,x_2)$$ denotes a bundle of goods.
+2. The prices of goods 1 and 2 are represented by $$p_1$$ and $$p_2$$, respectively.
+3. The income level of the consumer is denoted by $$m$$.
 
-<ins> Example </ins>: Suppose good 1 is orange juice and good 2 is salad. Then $$x_1$$ indicates the quantity of orange juice (say in liters) and $$x_2$$  is the quantity of salads (say in pounds). In this context, the combination (1/2, 1) represents the bundle of half liter of orange juice and one pound of salad. Suppose also that a liter of orange juice costs 5 dollars, a pound of salad costs 10 dollars, and the income level of the consumer is 500 dollars. In our notation, this information is concisely written as $$p_1$$ = 5, $$p_2$$ = 10, and $$m$$ = 500. ■
+<ins> Example </ins>: Suppose good 1 is orange juice and good 2 is salad. Then $$x_1$$ indicates the quantity of orange juice (say in liters) and $$x_2$$  is the quantity of salads (say in pounds). In this context, the combination (1/2, 1) represents the bundle of half liter of orange juice and one pound of salad. Suppose also that a liter of orange juice costs $5, a pound of salad costs $10, and the income level of the consumer is $500. In our notation, this information is concisely written as $$p_1$$ = 5, $$p_2$$ = 10, and $$m$$ = 500. ■
 
 This two-goods model can be easily extended to more goods (e.g., it can be extended to the set of all goods you can get in the supermarket). We use the two-goods case because it helps us to illustrate the main concepts and tools in a simple way, often using a picture.
 
