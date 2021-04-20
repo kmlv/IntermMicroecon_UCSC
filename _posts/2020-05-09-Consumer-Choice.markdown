@@ -41,7 +41,7 @@ $$p_1x_1 + p_2x_2 \leq m$$
 
 where $$p_1$$, $$p_2$$ represent the prices of goods 1 and 2, respectively, and $$m$$ is his income level.
 
-The set of bundles that exhaust the income of the consumer is called the budget line. It is given by
+The set of bundles that exhaust the income of the consumer is called the budget line. It is given by the pairs of good quantities that satisfy
 
 $$p_1x_1 + p_2x_2 = m$$.
 
